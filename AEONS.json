@@ -12,7 +12,7 @@
                "Tarun"
             ],
             "version":"1.0.0",
-            "color":"FF5733",
+            "color":"ffffff",
             "url":"https://drive.google.com/file/d/1s3iaWb3EZuMKlxYzFNVs0Ma2ZSBOu7YL/view",
             "dateReleased":"2024-02-06"
          }
@@ -334,7 +334,7 @@
    "monster":[
       {
          "name":"Amber Syrup",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":61,
          "size":[
             "H"
@@ -477,7 +477,7 @@
       },
       {
          "name":"Lesser Amber Syrup",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":62,
          "size":[
             "M"
@@ -587,7 +587,7 @@
       },
       {
          "name":"Brick Golem",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -711,7 +711,7 @@
       },
       {
          "name":"Clocktopus",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "S"
@@ -796,7 +796,7 @@
       },
       {
          "name":"Crawling Apocalypse",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "G"
@@ -951,7 +951,7 @@
       },
       {
          "name":"Crystal Ruin Crab",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "T"
@@ -1049,7 +1049,7 @@
       },
       {
          "name":"Eternal Healer",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -1166,7 +1166,7 @@
       },
       {
          "name":"Gemlin",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "S"
@@ -1292,7 +1292,7 @@
       },
       {
          "name":"Gemlin Juvenile",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "T"
@@ -1402,7 +1402,7 @@
       },
       {
          "name":"Gemlin Aggregate",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "H"
@@ -1554,7 +1554,7 @@
       },
       {
          "name":"Gemlin Progenitor",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -1678,7 +1678,7 @@
       },
       {
          "name":"Geocacher",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "S"
@@ -1788,7 +1788,7 @@
       },
       {
          "name":"Giant Ammonite",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -1888,7 +1888,7 @@
       },
       {
          "name":"Giant Sloth",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "H"
@@ -1960,7 +1960,7 @@
       },
       {
          "name":"Hell Pig",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -2046,7 +2046,7 @@
       },
       {
          "name":"Hollow",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -2128,7 +2128,7 @@
       },
       {
          "name":"Ji Ancient One",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -2377,7 +2377,7 @@
       },
       {
          "name":"Ji Wanderer",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -2572,7 +2572,7 @@
       },
       {
          "name":"Laikmets",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -2775,7 +2775,7 @@
       },
       {
          "name":"Molten Core Golem",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -2887,7 +2887,7 @@
       },
       {
          "name":"Mist Mimic",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -3034,7 +3034,7 @@
       },
       {
          "name":"Mummy Priest",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -3233,7 +3233,7 @@
       },
       {
          "name":"Overgrown Stone Golem",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -3356,7 +3356,7 @@
       },
       {
          "name":"Prismatic Entangler",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
@@ -3477,7 +3477,7 @@
       },
       {
          "name":"Ruin Builder",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "L"
@@ -3632,7 +3632,7 @@
       },
       {
          "name":"Ruin Crab",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "T"
@@ -3718,7 +3718,7 @@
       },
       {
          "name":"Shade Prince",
-         "source":"AEONS",
+         "source":"AEAONS",
          "page":0,
          "size":[
             "M"
