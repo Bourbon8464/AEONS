@@ -335,7 +335,7 @@
       {
          "name": "Amber Syrup",
          "source": "AEONS",
-         "page": 61,
+         "page": 0,
          "size": [
             "H"
          ],
@@ -394,31 +394,7 @@
             "prone"
          ],
          "cr": "7",
-         "action": [
-            {
-               "name": "Multiattack",
-               "entries": [
-                  "The syrup makes two Amber Scalpel or Crystal Fling attacks."
-               ]
-            },
-            {
-               "name": "Amber Scalpel",
-               "entries": [
-                  "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d8 + 3}) slashing damage."
-               ]
-            },
-            {
-               "name": "Crystal Fling",
-               "entries": [
-                  "{@atk rw} {@hit 7} to hit, range 60 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage."
-               ]
-            },
-            {
-               "name": "Engulf",
-               "entries": [
-                  "The syrup moves up to its speed. When it does so, it can enter the space of a creature its size or smaller. Whenever the syrup enters a creature's space, the creature must make a {@dc 17} Dexterity saving throw. On a successful save the syrup's movement stops before entering the creature's space. On a failed save, the syrup enters the creature's space and the creature takes 21 ({@damage 6d6}) acid damage and is engulfed. The engulfed creature can't breathe, is {@condition restrained}, and has total cover from attacks and effects outside the syrup. When the syrup moves, the engulfed creature moves with it. A creature who dies inside the syrup becomes {@condition petrified} and covered in a semitransparent glaze of amber. This coating has 20 hit points, and frees the corpse of the creature when destroyed. An engulfed creature can try to escape by using an action to make a {@dc 17} Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the syrup."
-               ]
-            },
+         "trait": [
             {
                "name": "Amorphous",
                "entries": [
@@ -444,6 +420,38 @@
                ]
             }
          ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The syrup makes two Amber Scalpel or Crystal Fling attacks."
+               ]
+            },
+            {
+               "name": "Amber Scalpel",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d8 + 3}) slashing damage."
+               ]
+            },
+            {
+               "name": "Crystal Fling",
+               "entries": [
+                  "{@atk rw} {@hit 7} to hit, range 60 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage."
+               ]
+            },
+            {
+               "name": "Engulf",
+               "entries": [
+                  "The syrup moves up to its speed. When it does so, it can enter the space of a creature its size or smaller. Whenever the syrup enters a creature's space, the creature must make a {@dc 17} Dexterity saving throw.",
+                  "On a successful save the syrup's movement stops before entering the creature's space.",
+                  "On a failed save, the syrup enters the creature's space and the creature takes 21 ({@damage 6d6}) acid damage and is engulfed. The engulfed creature can't breathe, is {@condition restrained}, and has total cover from attacks and effects outside the syrup. When the syrup moves, the engulfed creature moves with it. A creature who dies inside the syrup becomes {@condition petrified} and covered in a semitransparent glaze of amber. This coating has 20 hit points, and frees the corpse of the creature when destroyed.",
+                  "An engulfed creature can try to escape by using an action to make a {@dc 17} Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the syrup."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Amorphous"
+         ],
          "senseTags": [
             "B"
          ],
@@ -465,7 +473,7 @@
          ],
          "savingThrowForced": [
             "dexterity"
-         ],
+         ],      
          "tokenHref": {
             "type": "external",
             "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
