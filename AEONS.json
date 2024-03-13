@@ -1,390 +1,390 @@
 {
-    "_meta":{
-       "sources":[
-          {
-             "json":"AEAONS",
-             "abbreviation":"AEONS",
-             "full":"Archive of Entombed Omens & Neglected Secrets",
-             "authors":[
-                "fungusamongus, jonoman3000, the_bard"
-             ],
-             "convertedBy":[
-                "Tarun"
-             ],
-             "version":"1.0.0",
-             "color":"ffffff",
-             "url":"https://drive.google.com/file/d/1s3iaWb3EZuMKlxYzFNVs0Ma2ZSBOu7YL/view",
-             "dateReleased":"2024-02-06"
-          }
-       ],
-       "status":"wip",
-       "dateAdded":1710327288,
-       "dateLastModified":1710327288
-    },
-    "race":[
-       {
-          "name":"Echo",
-          "source":"AEAONS",
-          "page":4,
-          "speed":30,
-          "size":[
-             "S",
-             "M"
-          ],
-          "languageProficiencies":[
-             {
-                "common":true
-             }
-          ],
-          "traitTags":[
-             "Skill Proficiency"
-          ],
-          "ability":[
-             {
-                "cha":2,
-                "con":1
-             }
-          ],
-          "entries":[
-             {
-                "type":"entries",
-                "name":"Ability Score Increase",
-                "entries":[
-                   "Your Charisma score increases by 2, and your Constitution score increases by 1."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Age",
-                "entries":[
-                   "Many echoes face a brief existence, though one full of meaning. They form fully mature and typically live between 20 and 30 years."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Alignment",
-                "entries":[
-                   "Echoes, like their creators, can exemplify any alignment, but are typically influenced by their origins."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Size",
-                "entries":[
-                   "You are Medium or Small. You choose your size when you select this race. Your weight is a fourth of the weight of the creature that birthed you at the time of your creation."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Speed",
-                "entries":[
-                   "Your base walking speed is 30 feet."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Imitator's Legacy",
-                "entries":[
-                   "Echoes appear as many different races and lineages, but they are not what they appear to be. Your skill in replicating what you are not grants you proficiency in {@skill Deception} and {@skill Intimidation}."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Enchanted Existence",
-                "entries":[
-                   "You don't need to sleep and magic cannot put you to sleep. You can finish a long rest in 4 hours so long as you spend those hours in meditation or enjoying light activity. You also have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Art Imitates Life",
-                "entries":[
-                   "When a creature other than you within 30 feet of you that you can see makes a weapon attack or casts a cantrip, you can use your reaction to make one weapon attack or cast a cantrip of your own against the same target.",
-                   "You can use this feature a number of times equal to your Charisma modifier (a minimum of once) and regain all expended uses when you finish a long rest."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Languages",
-                "entries":[
-                   "Common and another language"
-                ]
-             }
-          ]
-       },
-       {
-          "name":"Ji",
-          "source":"AEAONS",
-          "page":5,
-          "size":[
-             "M"
-          ],
-          "speed":30,
-          "languageProficiencies":[
-             {
-                "common":true,
-                "anyStandard":1
-             }
-          ],
-          "ability":[
-             {
-                "con":2,
-                "choose":{
-                   "from":[
-                      "str",
-                      "dex",
-                      "cha",
-                      "int",
-                      "wis"
-                   ],
-                   "count":1
-                }
-             }
-          ],
-          "entries":[
-             {
-                "type":"entries",
-                "name":"Ability Score Increase",
-                "entries":[
-                   "Your Constitution score increases by 2, and another ability score of your choice increases by 1."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Age",
-                "entries":[
-                   "Ji do not age. They are born fully-formed from a mask created by one or more ji parents. Youths are rare; most ji have lived for centuries."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Alignment",
-                "entries":[
-                   "Independent and unbound by borders, most ji are chaotic. Having seen empires rise and fall, they are often passive, preferring neutrality in the battles between good and evil."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Speed",
-                "entries":[
-                   "Your base walking speed is 30 feet."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Language",
-                "entries":[
-                   "You can speak, read, and write Common and one other language of your choice. Ji often know exotic, extinct, or monstrous tongues."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Masked Speaker",
-                "entries":[
-                   "You have never seen the face of another ji, and may not have seen your own. As such, you learn other ways of understanding. Others have disadvantage on Wisdom ({@skill Insight}) checks made to discern your intentions, and you have advantage on Wisdom ({@skill Insight}) checks to understand intent through body language, tone, or other factors besides the target's expression."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Mask Maker",
-                "entries":[
-                   "You gain proficiency in one of the following {@item artisan's tools|PHB}: glassblower's, jeweler's, mason's, potter's, smith's, or woodcarver's."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Pilgrim of the Wind",
-                "entries":[
-                   "You take no damage if you fall from a height of 60 feet or less."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Tireless Walker",
-                "entries":[
-                   "You have advantage on saving throws against {@condition exhaustion} and you ignore nonmagical {@quickref difficult terrain||3}."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Voice of the Ages",
-                "entries":[
-                   "You can use an action to emit a few nostalgic notes from a song long forgotten. Creatures of your choice within 60 feet of you gain temporary hit points equal to your level. Plants and flowers within the area bloom and grow, regardless of season. A target must be able to hear you to be affected by this feature. Once you use this feature, you can't do so again until you finish a short or long rest."
-                ]
-             }
-          ]
-       },
-       {
-          "name":"Prymid",
-          "source":"AEAONS",
-          "page":7,
-          "languageProficiencies":[
-             {
-                "common":true,
-                "anyStandard":1
-             }
-          ],
-          "size":[
-             "M",
-             "S"
-          ],
-          "speed":30,
-          "ability":[
-             {
-                "dex":2,
-                "str":1,
-                "wis":1
-             }
-          ],
-          "entries":[
-             {
-                "type":"entries",
-                "name":"Ability Score Increase",
-                "entries":[
-                   "Your Dexterity score increases by 2, and your Strength and Wisdom scores increase by 1."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Age",
-                "entries":[
-                   "Most prymids perish long before their time. The few that survive possess centuries of memories and can recount tales of the creators of the ruins prymids often inhabit. They mature to adulthood within two years."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Alignment",
-                "entries":[
-                   "Prymids care most about the survival of themselves and their loved ones, and rarely take sides in external conflicts. If they believe it is safe to do so, they will offer assistance to others. They are usually chaotic and rarely evil."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Size",
-                "entries":[
-                   "Most prymids range from 1½ feet to 3 feet tall and weigh up to 25 lbs. Others range from 4-5 feet tall and weigh up to 300 pounds. You are Medium or Small. You choose the size when you select this race."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Speed",
-                "entries":[
-                   "Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Language",
-                "entries":[
-                   "You can speak, read, and write Common and one other language of your choice. Prymids usually learn the languages of nearby settlements."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Ape Escape",
-                "entries":[
-                   "When you take the {@action Disengage} action, you can take the {@action Hide} action as part of the same action."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Prehensile Tail",
-                "entries":[
-                   "A tail extends from the middle of your back just above your legs. This tail has a reach of 5 feet, and you can manipulate it as if it were another limb. It can lift a number of pounds equal to your Strength score, and you can use it to do simple tasks such as pulling a lever or opening a door. Your tail conceals a sharp, retractable spike, which you can use to make an unarmed strike. When you hit with it, the strike deals {@damage 1d6} + your Strength modifier in piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Bizarre Adaptation",
-                "entries":[
-                   "Your primeval biology allows you to grow parts that help you adjust to your environment. Choose an adaptation from the list below:"
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Chlorophyll",
-                "entries":[
-                   "Your skin and fur are tinted green, allowing you to sustain yourself as plants do. 1 hour in direct sunlight provides you with enough nourishment to sustain you for one day (though you can still eat normally). If you spend the entire duration of a short rest exposed to direct sunlight, you can choose a number of hit dice up to your Constitution modifier (a minimum of 1) and treat those dice as if you had rolled the maximum result."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Eyespot",
-                "entries":[
-                   "An extra, rudimentary eye grows within your flesh or on a short stalk that extends from the tip of your tail, the nape of your neck, or another part of your body. You have advantage on saving throws against being {@condition blinded}. If you are {@condition blinded}, you can still see and do not automatically fail checks that require sight. The other penalties of the {@condition blinded} condition still apply to you."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Quills",
-                "entries":[
-                   "Sharp spines hide within your fur. If a creature grapples you, it takes {@damage 1d6} piercing damage. When you would make a weapon attack, you can instead choose to launch your quills, which are ranged weapons with a normal range of 20 feet and a long range of 60 feet. You can use your Strength or Dexterity modifier for the attack and damage rolls of your quills (you must use the same modifier for both rolls). The quills have a damage die of {@dice 1d8}. You can make this attack a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you expend all your uses, creatures that grapple you take no damage from your quills."
-                ]
-             },
-             {
-                "type":"entries",
-                "name":"Spinnerets",
-                "entries":[
-                   "You have small glands that you can use to spin webs. You can use your action to connect a line of webs to a creature of your size or smaller, preventing it from moving more than 15 feet from you. A creature that can reach the line can use its action to break the web. You can also use an action to adhere an object weighing no more than 25 pounds to another surface. Your webs dissolve 1 hour after their application."
-                ]
-             }
-          ]
-       }
-    ],
-    "monster": [
+   "_meta":{
+      "sources":[
+         {
+            "json":"AEAONS",
+            "abbreviation":"AEONS",
+            "full":"Archive of Entombed Omens & Neglected Secrets",
+            "authors":[
+               "fungusamongus, jonoman3000, the_bard"
+            ],
+            "convertedBy":[
+               "Tarun"
+            ],
+            "version":"1.0.0",
+            "color":"ffffff",
+            "url":"https://drive.google.com/file/d/1s3iaWb3EZuMKlxYzFNVs0Ma2ZSBOu7YL/view",
+            "dateReleased":"2024-02-06"
+         }
+      ],
+      "status":"wip",
+      "dateAdded":1710327288,
+      "dateLastModified":1710327288
+   },
+   "race":[
       {
-         "name": "Amber Syrup",
-         "source": "AEONS",
-         "page": 61,
-         "size": [
+         "name":"Echo",
+         "source":"AEAONS",
+         "page":4,
+         "speed":30,
+         "size":[
+            "S",
+            "M"
+         ],
+         "languageProficiencies":[
+            {
+               "common":true
+            }
+         ],
+         "traitTags":[
+            "Skill Proficiency"
+         ],
+         "ability":[
+            {
+               "cha":2,
+               "con":1
+            }
+         ],
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Charisma score increases by 2, and your Constitution score increases by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Many echoes face a brief existence, though one full of meaning. They form fully mature and typically live between 20 and 30 years."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Echoes, like their creators, can exemplify any alignment, but are typically influenced by their origins."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "You are Medium or Small. You choose your size when you select this race. Your weight is a fourth of the weight of the creature that birthed you at the time of your creation."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Imitator's Legacy",
+               "entries":[
+                  "Echoes appear as many different races and lineages, but they are not what they appear to be. Your skill in replicating what you are not grants you proficiency in {@skill Deception} and {@skill Intimidation}."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Enchanted Existence",
+               "entries":[
+                  "You don't need to sleep and magic cannot put you to sleep. You can finish a long rest in 4 hours so long as you spend those hours in meditation or enjoying light activity. You also have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Art Imitates Life",
+               "entries":[
+                  "When a creature other than you within 30 feet of you that you can see makes a weapon attack or casts a cantrip, you can use your reaction to make one weapon attack or cast a cantrip of your own against the same target.",
+                  "You can use this feature a number of times equal to your Charisma modifier (a minimum of once) and regain all expended uses when you finish a long rest."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Languages",
+               "entries":[
+                  "Common and another language"
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Ji",
+         "source":"AEAONS",
+         "page":5,
+         "size":[
+            "M"
+         ],
+         "speed":30,
+         "languageProficiencies":[
+            {
+               "common":true,
+               "anyStandard":1
+            }
+         ],
+         "ability":[
+            {
+               "con":2,
+               "choose":{
+                  "from":[
+                     "str",
+                     "dex",
+                     "cha",
+                     "int",
+                     "wis"
+                  ],
+                  "count":1
+               }
+            }
+         ],
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Constitution score increases by 2, and another ability score of your choice increases by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Ji do not age. They are born fully-formed from a mask created by one or more ji parents. Youths are rare; most ji have lived for centuries."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Independent and unbound by borders, most ji are chaotic. Having seen empires rise and fall, they are often passive, preferring neutrality in the battles between good and evil."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Language",
+               "entries":[
+                  "You can speak, read, and write Common and one other language of your choice. Ji often know exotic, extinct, or monstrous tongues."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Masked Speaker",
+               "entries":[
+                  "You have never seen the face of another ji, and may not have seen your own. As such, you learn other ways of understanding. Others have disadvantage on Wisdom ({@skill Insight}) checks made to discern your intentions, and you have advantage on Wisdom ({@skill Insight}) checks to understand intent through body language, tone, or other factors besides the target's expression."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Mask Maker",
+               "entries":[
+                  "You gain proficiency in one of the following {@item artisan's tools|PHB}: glassblower's, jeweler's, mason's, potter's, smith's, or woodcarver's."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Pilgrim of the Wind",
+               "entries":[
+                  "You take no damage if you fall from a height of 60 feet or less."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Tireless Walker",
+               "entries":[
+                  "You have advantage on saving throws against {@condition exhaustion} and you ignore nonmagical {@quickref difficult terrain||3}."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Voice of the Ages",
+               "entries":[
+                  "You can use an action to emit a few nostalgic notes from a song long forgotten. Creatures of your choice within 60 feet of you gain temporary hit points equal to your level. Plants and flowers within the area bloom and grow, regardless of season. A target must be able to hear you to be affected by this feature. Once you use this feature, you can't do so again until you finish a short or long rest."
+               ]
+            }
+         ]
+      },
+      {
+         "name":"Prymid",
+         "source":"AEAONS",
+         "page":7,
+         "languageProficiencies":[
+            {
+               "common":true,
+               "anyStandard":1
+            }
+         ],
+         "size":[
+            "M",
+            "S"
+         ],
+         "speed":30,
+         "ability":[
+            {
+               "dex":2,
+               "str":1,
+               "wis":1
+            }
+         ],
+         "entries":[
+            {
+               "type":"entries",
+               "name":"Ability Score Increase",
+               "entries":[
+                  "Your Dexterity score increases by 2, and your Strength and Wisdom scores increase by 1."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Age",
+               "entries":[
+                  "Most prymids perish long before their time. The few that survive possess centuries of memories and can recount tales of the creators of the ruins prymids often inhabit. They mature to adulthood within two years."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Alignment",
+               "entries":[
+                  "Prymids care most about the survival of themselves and their loved ones, and rarely take sides in external conflicts. If they believe it is safe to do so, they will offer assistance to others. They are usually chaotic and rarely evil."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Size",
+               "entries":[
+                  "Most prymids range from 1½ feet to 3 feet tall and weigh up to 25 lbs. Others range from 4-5 feet tall and weigh up to 300 pounds. You are Medium or Small. You choose the size when you select this race."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Speed",
+               "entries":[
+                  "Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Language",
+               "entries":[
+                  "You can speak, read, and write Common and one other language of your choice. Prymids usually learn the languages of nearby settlements."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Ape Escape",
+               "entries":[
+                  "When you take the {@action Disengage} action, you can take the {@action Hide} action as part of the same action."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Prehensile Tail",
+               "entries":[
+                  "A tail extends from the middle of your back just above your legs. This tail has a reach of 5 feet, and you can manipulate it as if it were another limb. It can lift a number of pounds equal to your Strength score, and you can use it to do simple tasks such as pulling a lever or opening a door. Your tail conceals a sharp, retractable spike, which you can use to make an unarmed strike. When you hit with it, the strike deals {@damage 1d6} + your Strength modifier in piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Bizarre Adaptation",
+               "entries":[
+                  "Your primeval biology allows you to grow parts that help you adjust to your environment. Choose an adaptation from the list below:"
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Chlorophyll",
+               "entries":[
+                  "Your skin and fur are tinted green, allowing you to sustain yourself as plants do. 1 hour in direct sunlight provides you with enough nourishment to sustain you for one day (though you can still eat normally). If you spend the entire duration of a short rest exposed to direct sunlight, you can choose a number of hit dice up to your Constitution modifier (a minimum of 1) and treat those dice as if you had rolled the maximum result."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Eyespot",
+               "entries":[
+                  "An extra, rudimentary eye grows within your flesh or on a short stalk that extends from the tip of your tail, the nape of your neck, or another part of your body. You have advantage on saving throws against being {@condition blinded}. If you are {@condition blinded}, you can still see and do not automatically fail checks that require sight. The other penalties of the {@condition blinded} condition still apply to you."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Quills",
+               "entries":[
+                  "Sharp spines hide within your fur. If a creature grapples you, it takes {@damage 1d6} piercing damage. When you would make a weapon attack, you can instead choose to launch your quills, which are ranged weapons with a normal range of 20 feet and a long range of 60 feet. You can use your Strength or Dexterity modifier for the attack and damage rolls of your quills (you must use the same modifier for both rolls). The quills have a damage die of {@dice 1d8}. You can make this attack a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you expend all your uses, creatures that grapple you take no damage from your quills."
+               ]
+            },
+            {
+               "type":"entries",
+               "name":"Spinnerets",
+               "entries":[
+                  "You have small glands that you can use to spin webs. You can use your action to connect a line of webs to a creature of your size or smaller, preventing it from moving more than 15 feet from you. A creature that can reach the line can use its action to break the web. You can also use an action to adhere an object weighing no more than 25 pounds to another surface. Your webs dissolve 1 hour after their application."
+               ]
+            }
+         ]
+      }
+   ],
+   "monster":[
+      {
+         "name":"Amber Syrup",
+         "source":"AEONS",
+         "page":61,
+         "size":[
             "H"
          ],
-         "type": "ooze",
-         "alignment": [
+         "type":"ooze",
+         "alignment":[
             "U"
          ],
-         "ac": [
+         "ac":[
             {
-               "ac": 15,
-               "from": [
+               "ac":15,
+               "from":[
                   "natural armor"
                ]
             }
          ],
-         "hp": {
-            "average": 105,
-            "formula": "10d12 + 40"
+         "hp":{
+            "average":105,
+            "formula":"10d12 + 40"
          },
-         "speed": {
-            "walk": 30
+         "speed":{
+            "walk":30
          },
-         "str": 17,
-         "dex": 8,
-         "con": 18,
-         "int": 4,
-         "wis": 10,
-         "cha": 1,
-         "senses": [
+         "str":17,
+         "dex":8,
+         "con":18,
+         "int":4,
+         "wis":10,
+         "cha":1,
+         "senses":[
             "blindsight 90 ft. (blind beyond this radius)"
          ],
-         "resist": [
+         "resist":[
             "acid",
             "necrotic",
             {
-               "resist": [
+               "resist":[
                   "bludgeoning",
                   "piercing",
                   "slashing"
                ],
-               "note": "from nonmagical attacks",
-               "cond": true
+               "note":"from nonmagical attacks",
+               "cond":true
             }
          ],
-         "immune": [
+         "immune":[
             "poison",
             "psychic"
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "blinded",
             "charmed",
             "deafened",
@@ -393,55 +393,55 @@
             "poisoned",
             "prone"
          ],
-         "cr": "7",
-         "trait": [
+         "cr":"7",
+         "trait":[
             {
-               "name": "Amorphous",
-               "entries": [
+               "name":"Amorphous",
+               "entries":[
                   "The syrup can move through a space as narrow as 1 inch wide without squeezing."
                ]
             },
             {
-               "name": "Crystallizing Body",
-               "entries": [
+               "name":"Crystallizing Body",
+               "entries":[
                   "When the syrup hits a creature with an attack, the creature's speed is reduced by 15 feet until the end of its next turn."
                ]
             },
             {
-               "name": "Encase",
-               "entries": [
+               "name":"Encase",
+               "entries":[
                   "When a creature hits the syrup with a melee attack, it has disadvantage on attack rolls until the start of its next turn."
                ]
             },
             {
-               "name": "Perfectly Preserved",
-               "entries": [
+               "name":"Perfectly Preserved",
+               "entries":[
                   "When the syrup dies, it transforms into solid amber crystal."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Multiattack",
-               "entries": [
+               "name":"Multiattack",
+               "entries":[
                   "The syrup makes two Amber Scalpel or Crystal Fling attacks."
                ]
             },
             {
-               "name": "Amber Scalpel",
-               "entries": [
+               "name":"Amber Scalpel",
+               "entries":[
                   "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d8 + 3}) slashing damage."
                ]
             },
             {
-               "name": "Crystal Fling",
-               "entries": [
+               "name":"Crystal Fling",
+               "entries":[
                   "{@atk rw} {@hit 7} to hit, range 60 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage."
                ]
             },
             {
-               "name": "Engulf",
-               "entries": [
+               "name":"Engulf",
+               "entries":[
                   "The syrup moves up to its speed. When it does so, it can enter the space of a creature its size or smaller. Whenever the syrup enters a creature's space, the creature must make a {@dc 17} Dexterity saving throw.",
                   "On a successful save the syrup's movement stops before entering the creature's space.",
                   "On a failed save, the syrup enters the creature's space and the creature takes 21 ({@damage 6d6}) acid damage and is engulfed. The engulfed creature can't breathe, is {@condition restrained}, and has total cover from attacks and effects outside the syrup. When the syrup moves, the engulfed creature moves with it. A creature who dies inside the syrup becomes {@condition petrified} and covered in a semitransparent glaze of amber. This coating has 20 hit points, and frees the corpse of the creature when destroyed.",
@@ -449,81 +449,81 @@
                ]
             }
          ],
-         "traitTags": [
+         "traitTags":[
             "Amorphous"
          ],
-         "senseTags": [
+         "senseTags":[
             "B"
          ],
-         "actionTags": [
+         "actionTags":[
             "Multiattack"
          ],
-         "damageTags": [
+         "damageTags":[
             "A",
             "P",
             "S"
          ],
-         "miscTags": [
+         "miscTags":[
             "MW",
             "RCH",
             "RW"
          ],
-         "conditionInflict": [
+         "conditionInflict":[
             "restrained"
          ],
-         "savingThrowForced": [
+         "savingThrowForced":[
             "dexterity"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Lesser Amber Syrup",
-         "source": "AEONS",
-         "page": 62,
-         "size": [
+         "name":"Lesser Amber Syrup",
+         "source":"AEONS",
+         "page":62,
+         "size":[
             "M"
          ],
-         "type": "ooze",
-         "alignment": [
+         "type":"ooze",
+         "alignment":[
             "U"
          ],
-         "ac": [
+         "ac":[
             {
-               "ac": 15,
-               "from": [
+               "ac":15,
+               "from":[
                   "natural armor"
                ]
             }
          ],
-         "hp": {
-            "average": 22,
-            "formula": "3d8 + 9"
+         "hp":{
+            "average":22,
+            "formula":"3d8 + 9"
          },
-         "speed": {
-            "walk": 20
+         "speed":{
+            "walk":20
          },
-         "str": 15,
-         "dex": 8,
-         "con": 16,
-         "int": 4,
-         "wis": 8,
-         "cha": 1,
-         "senses": [
+         "str":15,
+         "dex":8,
+         "con":16,
+         "int":4,
+         "wis":8,
+         "cha":1,
+         "senses":[
             "blindsight 60 ft. (blind beyond this radius)"
          ],
-         "passive": 9,
-         "resist": [
+         "passive":9,
+         "resist":[
             "acid",
             "necrotic"
          ],
-         "immune": [
+         "immune":[
             "poison",
             "psychic"
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "blinded",
             "charmed",
             "deafened",
@@ -532,117 +532,117 @@
             "poisoned",
             "prone"
          ],
-         "cr": "1",
-         "trait": [
+         "cr":"1",
+         "trait":[
             {
-               "name": "Amorphous",
-               "entries": [
+               "name":"Amorphous",
+               "entries":[
                   "The syrup can move through a space as narrow as 1 inch wide without squeezing."
                ]
             },
             {
-               "name": "Crystallizing Body",
-               "entries": [
+               "name":"Crystallizing Body",
+               "entries":[
                   "When the syrup hits a creature with an attack, the creature's speed is reduced by 15 feet until the end of its next turn."
                ]
             },
             {
-               "name": "Encase",
-               "entries": [
+               "name":"Encase",
+               "entries":[
                   "When a creature hits the syrup with a melee attack, it has disadvantage on attack rolls until the start of its next turn."
                ]
             },
             {
-               "name": "Perfectly Preserved",
-               "entries": [
+               "name":"Perfectly Preserved",
+               "entries":[
                   "When the syrup dies, it transforms into solid amber crystal."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Amber Scalpel",
-               "entries": [
+               "name":"Amber Scalpel",
+               "entries":[
                   "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage."
                ]
             },
             {
-               "name": "Crystal Fling",
-               "entries": [
+               "name":"Crystal Fling",
+               "entries":[
                   "{@atk rw} {@hit 4} to hit, range 60 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
                ]
             }
          ],
-         "traitTags": [
+         "traitTags":[
             "Amorphous"
          ],
-         "senseTags": [
+         "senseTags":[
             "B"
          ],
-         "damageTags": [
+         "damageTags":[
             "P",
             "S"
          ],
-         "miscTags": [
+         "miscTags":[
             "MW",
             "RCH",
             "RW"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Brick Golem",
-         "source": "AEONS",
-         "page": 0,
-         "size": [
+         "name":"Brick Golem",
+         "source":"AEONS",
+         "page":0,
+         "size":[
             "L"
          ],
-         "type": "construct",
-         "alignment": [
+         "type":"construct",
+         "alignment":[
             "U"
          ],
-         "ac": [
+         "ac":[
             {
-               "ac": 17,
-               "from": [
+               "ac":17,
+               "from":[
                   "natural armor"
                ]
             }
          ],
-         "hp": {
-            "average": 104,
-            "formula": "11d10 + 44"
+         "hp":{
+            "average":104,
+            "formula":"11d10 + 44"
          },
-         "speed": {
-            "walk": 30
+         "speed":{
+            "walk":30
          },
-         "str": 18,
-         "dex": 14,
-         "con": 18,
-         "int": 3,
-         "wis": 11,
-         "cha": 1,
-         "senses": [
+         "str":18,
+         "dex":14,
+         "con":18,
+         "int":3,
+         "wis":11,
+         "cha":1,
+         "senses":[
             "darkvision 120 ft."
          ],
-         "passive": 10,
-         "immune": [
+         "passive":10,
+         "immune":[
             "poison",
             "psychic",
             {
-               "immune": [
+               "immune":[
                   "bludgeoning",
                   "piercing",
                   "slashing"
                ],
-               "note": "from nonmagical weapons that aren't adamantine",
-               "cond": true
+               "note":"from nonmagical weapons that aren't adamantine",
+               "cond":true
             }
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "charmed",
             "exhaustion",
             "frightened",
@@ -650,547 +650,547 @@
             "petrified",
             "poisoned"
          ],
-         "languages": [
+         "languages":[
             "understands the languages of its creator but can't speak"
          ],
-         "cr": "8",
-         "trait": [
+         "cr":"8",
+         "trait":[
             {
-               "name": "Immutable Form",
-               "entries": [
+               "name":"Immutable Form",
+               "entries":[
                   "The golem is immune to any spell or effect that would alter its form."
                ]
             },
             {
-               "name": "Magic Resistance",
-               "entries": [
+               "name":"Magic Resistance",
+               "entries":[
                   "The golem has advantage on saving throws against spells and other magical effects."
                ]
             },
             {
-               "name": "Magic Weapons",
-               "entries": [
+               "name":"Magic Weapons",
+               "entries":[
                   "The golem's weapon attacks are magical."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Multiattack",
-               "entries": [
+               "name":"Multiattack",
+               "entries":[
                   "The golem makes two slam attacks."
                ]
             },
             {
-               "name": "Slam",
-               "entries": [
+               "name":"Slam",
+               "entries":[
                   "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
                ]
             }
          ],
-         "reaction": [
+         "reaction":[
             {
-               "name": "Divide and Conquer",
-               "entries": [
+               "name":"Divide and Conquer",
+               "entries":[
                   "When a brick golem that is Large or smaller is hit by an attack that deals slashing or bludgeoning damage, it splits into two brick golems if it has at least 25 hit points. Each new brick golem has hit points equal to half the original golem's, rounded down."
                ]
             }
          ],
-         "traitTags": [
+         "traitTags":[
             "Immutable Form",
             "Magic Resistance",
             "Magic Weapons"
          ],
-         "senseTags": [
+         "senseTags":[
             "SD"
          ],
-         "actionTags": [
+         "actionTags":[
             "Multiattack"
          ],
-         "languageTags": [
+         "languageTags":[
             "CS"
          ],
-         "damageTags": [
+         "damageTags":[
             "B"
          ],
-         "miscTags": [
+         "miscTags":[
             "MW"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Clocktopus",
-         "source": "AEONS",
-         "page": 0,
-         "size": [
+         "name":"Clocktopus",
+         "source":"AEONS",
+         "page":0,
+         "size":[
             "S"
          ],
-         "type": "construct",
-         "alignment": [
+         "type":"construct",
+         "alignment":[
             "U"
          ],
-         "ac": [
+         "ac":[
             12
          ],
-         "hp": {
-            "average": 22,
-            "formula": "4d6 + 8"
+         "hp":{
+            "average":22,
+            "formula":"4d6 + 8"
          },
-         "speed": {
-            "walk": 20,
-            "climb": 20
+         "speed":{
+            "walk":20,
+            "climb":20
          },
-         "str": 14,
-         "dex": 12,
-         "con": 15,
-         "int": 1,
-         "wis": 10,
-         "cha": 7,
-         "save": {
-            "con": "+4"
+         "str":14,
+         "dex":12,
+         "con":15,
+         "int":1,
+         "wis":10,
+         "cha":7,
+         "save":{
+            "con":"+4"
          },
-         "senses": [
+         "senses":[
             "tremorsense 30 ft."
          ],
-         "passive": 10,
-         "immune": [
+         "passive":10,
+         "immune":[
             "poison",
             "psychic"
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "frightened",
             "poisoned"
          ],
-         "cr": "1/4",
-         "trait": [
+         "cr":"1/4",
+         "trait":[
             {
-               "name": "Exact Timing",
-               "entries": [
+               "name":"Exact Timing",
+               "entries":[
                   "The clocktopus takes its turn on initiative count 15 (losing initiative ties)."
                ]
             },
             {
-               "name": "Momentum-Powered",
-               "entries": [
+               "name":"Momentum-Powered",
+               "entries":[
                   "The clocktopus falls {@condition unconscious} if it is not touching a solid surface."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Mechantacle",
-               "entries": [
+               "name":"Mechantacle",
+               "entries":[
                   "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage. Once per turn if the clocktopus scores a critical hit, it can make an additional attack against the target as part of the same action."
                ]
             },
             {
-               "name": "Time Switch {@recharge 5}",
-               "entries": [
+               "name":"Time Switch {@recharge 5}",
+               "entries":[
                   "The clocktopus alters its gear speed, adjusting the flow of time around it and forcing a creature it can see within 30 feet of it to make a {@dc 13} Constitution saving throw. On a failed save, the target is affected by the {@spell slow} spell, and the clocktopus can cast the {@spell haste} spell on a creature it can see within 30 feet of it. On a success, the clocktopus is affected by the {@spell slow} spell until it uses this feature again."
                ]
             }
          ],
-         "senseTags": [
+         "senseTags":[
             "T"
          ],
-         "damageTags": [
+         "damageTags":[
             "B"
          ],
-         "miscTags": [
+         "miscTags":[
             "MW"
          ],
-         "savingThrowForced": [
+         "savingThrowForced":[
             "constitution"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Crawling Apocalypse",
-         "source": "AEONS",
-         "page": 0,
-         "size": [
+         "name":"Crawling Apocalypse",
+         "source":"AEONS",
+         "page":0,
+         "size":[
             "G"
          ],
-         "type": "undead",
-         "alignment": [
+         "type":"undead",
+         "alignment":[
             "L",
             "E"
          ],
-         "ac": [
+         "ac":[
             {
-               "ac": 16,
-               "from": [
+               "ac":16,
+               "from":[
                   "natural armor"
                ]
             }
          ],
-         "hp": {
-            "average": 279,
-            "formula": "18d20 + 90"
+         "hp":{
+            "average":279,
+            "formula":"18d20 + 90"
          },
-         "speed": {
-            "walk": 20,
-            "burrow": 20
+         "speed":{
+            "walk":20,
+            "burrow":20
          },
-         "str": 26,
-         "dex": 7,
-         "con": 21,
-         "int": 11,
-         "wis": 18,
-         "cha": 20,
-         "save": {
-            "con": "+10",
-            "wis": "+9"
+         "str":26,
+         "dex":7,
+         "con":21,
+         "int":11,
+         "wis":18,
+         "cha":20,
+         "save":{
+            "con":"+10",
+            "wis":"+9"
          },
-         "senses": [
+         "senses":[
             "darkvision 60 ft."
          ],
-         "passive": 14,
-         "resist": [
+         "passive":14,
+         "resist":[
             "necrotic",
             {
-               "resist": [
+               "resist":[
                   "bludgeoning",
                   "piercing",
                   "slashing"
                ],
-               "note": "from nonmagical attacks",
-               "cond": true
+               "note":"from nonmagical attacks",
+               "cond":true
             }
          ],
-         "vulnerable": [
+         "vulnerable":[
             "fire"
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "charmed",
             "exhaustion",
             "frightened",
             "paralyzed",
             "poisoned"
          ],
-         "languages": [
+         "languages":[
             "understands Abyssal",
             "Celestial",
             "Infernal",
             "Marru",
             "and Primordial but can't speak"
          ],
-         "cr": "17",
-         "trait": [
+         "cr":"17",
+         "trait":[
             {
-               "name": "Magic Resistance",
-               "entries": [
+               "name":"Magic Resistance",
+               "entries":[
                   "The crawling apocalypse has advantage on saving throws against spells and other magical effects."
                ]
             },
             {
-               "name": "Regeneration",
-               "entries": [
+               "name":"Regeneration",
+               "entries":[
                   "The crawling apocalypse regains 10 hit points at the start of its turn. If the crawling apocalypse takes acid or fire damage, this trait doesn't function at the start of its next turn. The crawling apocalypse dies only if it starts its turn with 0 hit points and doesn't regenerate."
                ]
             },
             {
-               "name": "Siege Monster",
-               "entries": [
+               "name":"Siege Monster",
+               "entries":[
                   "The crawling apocalypse deals double damage to objects and structures."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Multiattack",
-               "entries": [
+               "name":"Multiattack",
+               "entries":[
                   "The crawling apocalypse uses its dreadful presence. It then makes two rotting tentacle attacks."
                ]
             },
             {
-               "name": "Rotting Tentacle",
-               "entries": [
+               "name":"Rotting Tentacle",
+               "entries":[
                   "{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}53 ({@damage 10d8 + 8}) necrotic damage. If the target is a creature, it must succeed on a {@dc 18} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
                ]
             },
             {
-               "name": "Dreadful Presence",
-               "entries": [
+               "name":"Dreadful Presence",
+               "entries":[
                   "Each creature of the crawling apocalypse's choice that is within 120 feet of it and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} until the end of its next turn. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to the crawling apocalypse's Dreadful Presence for the next 24 hours."
                ]
             },
             {
-               "name": "Choking Breath {@recharge 5}",
-               "entries": [
+               "name":"Choking Breath {@recharge 5}",
+               "entries":[
                   "The crawling apocalypse exhales a cloud of sickening dust in a 90-foot cone. Each creature in the area must make a {@dc 18} Constitution saving throw, taking 27 ({@damage 5d10}) necrotic damage plus 27 ({@damage 5d10}) poison damage on a failed save, or half as much damage on a successful one. If a target fails the saving throw by 5 or more, it suffers one level of {@condition exhaustion}."
                ]
             }
          ],
-         "traitTags": [
+         "traitTags":[
             "Magic Resistance",
             "Regeneration",
             "Siege Monster"
          ],
-         "senseTags": [
+         "senseTags":[
             "D"
          ],
-         "actionTags": [
+         "actionTags":[
             "Breath Weapon",
             "Multiattack"
          ],
-         "languageTags": [
+         "languageTags":[
             "AB",
             "CE",
             "CS",
             "I",
             "P"
          ],
-         "damageTags": [
+         "damageTags":[
             "I",
             "N"
          ],
-         "miscTags": [
+         "miscTags":[
             "AOE",
             "MW",
             "RCH"
          ],
-         "conditionInflict": [
+         "conditionInflict":[
             "frightened",
             "paralyzed"
          ],
-         "savingThrowForced": [
+         "savingThrowForced":[
             "constitution",
             "wisdom"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Crystal Ruin Crab",
-         "source": "AEONS",
-         "page": 0,
-         "size": [
+         "name":"Crystal Ruin Crab",
+         "source":"AEONS",
+         "page":0,
+         "size":[
             "T"
          ],
-         "type": "beast",
-         "alignment": [
+         "type":"beast",
+         "alignment":[
             "U"
          ],
-         "ac": [
+         "ac":[
             {
-               "ac": 15,
-               "from": [
+               "ac":15,
+               "from":[
                   "natural armor"
                ]
             }
          ],
-         "hp": {
-            "average": 22,
-            "formula": "3d8 + 9"
+         "hp":{
+            "average":22,
+            "formula":"3d8 + 9"
          },
-         "speed": {
-            "walk": 20,
-            "burrow": 10,
-            "swim": 10
+         "speed":{
+            "walk":20,
+            "burrow":10,
+            "swim":10
          },
-         "str": 14,
-         "dex": 13,
-         "con": 16,
-         "int": 1,
-         "wis": 9,
-         "cha": 4,
-         "senses": [
+         "str":14,
+         "dex":13,
+         "con":16,
+         "int":1,
+         "wis":9,
+         "cha":4,
+         "senses":[
             "blindsight 60 ft."
          ],
-         "passive": 9,
-         "resist": [
+         "passive":9,
+         "resist":[
             {
-               "resist": [
+               "resist":[
                   "slashing"
                ],
-               "note": "damage from nonmagical attacks",
-               "cond": true
+               "note":"damage from nonmagical attacks",
+               "cond":true
             }
          ],
-         "cr": "1",
-         "trait": [
+         "cr":"1",
+         "trait":[
             {
-               "name": "False Appearance",
-               "entries": [
+               "name":"False Appearance",
+               "entries":[
                   "While the crab remains motionless, it is indistinguishable from a gemstone."
                ]
             },
             {
-               "name": "Elemental Crystallization",
-               "entries": [
+               "name":"Elemental Crystallization",
+               "entries":[
                   "The crab has immunity to one of the following damage types: acid, cold, fire, lightning, or radiant."
                ]
             },
             {
-               "name": "Energy Reflux",
-               "entries": [
+               "name":"Energy Reflux",
+               "entries":[
                   "When the crab would take damage of the type it is immune to, every creature within 10 feet of it must make a {@dc 13} Constitution saving throw. On a failed save, a target takes 7 ({@damage 2d6}) damage of that type."
                ]
             },
             {
-               "name": "Debris Shell",
-               "entries": [
+               "name":"Debris Shell",
+               "entries":[
                   "While its shell isn't broken, the crab has a +3 bonus to its AC (included in its statistics). If damage would reduce the ruin crab to 0 hit points, its shell breaks, it is reduced to 1 hit point instead, and one object from the crystal ruin crab treasures table drops into the ruin crab's space. The crab can spend 1 hour collecting crystals to rebuild its Debris Shell."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Claw",
-               "entries": [
+               "name":"Claw",
+               "entries":[
                   "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
                ]
             }
          ],
-         "traitTags": [
+         "traitTags":[
             "False Appearance"
          ],
-         "senseTags": [
+         "senseTags":[
             "B"
          ],
-         "damageTags": [
+         "damageTags":[
             "B"
          ],
-         "miscTags": [
+         "miscTags":[
             "MW"
          ],
-         "savingThrowForced": [
+         "savingThrowForced":[
             "constitution"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
       },
       {
-         "name": "Eternal Healer",
-         "source": "AEONS",
-         "page": 0,
-         "size": [
+         "name":"Eternal Healer",
+         "source":"AEONS",
+         "page":0,
+         "size":[
             "M"
          ],
-         "type": "undead",
-         "alignment": [
+         "type":"undead",
+         "alignment":[
             "N"
          ],
-         "ac": [
+         "ac":[
             15
          ],
-         "hp": {
-            "average": 39,
-            "formula": "6d8 + 12"
+         "hp":{
+            "average":39,
+            "formula":"6d8 + 12"
          },
-         "speed": {
-            "fly": {
-               "number": 30,
-               "condition": "(hover)"
+         "speed":{
+            "fly":{
+               "number":30,
+               "condition":"(hover)"
             },
-            "canHover": true
+            "canHover":true
          },
-         "str": 12,
-         "dex": 17,
-         "con": 15,
-         "int": 10,
-         "wis": 19,
-         "cha": 8,
-         "save": {
-            "con": "+4",
-            "wis": "+6"
+         "str":12,
+         "dex":17,
+         "con":15,
+         "int":10,
+         "wis":19,
+         "cha":8,
+         "save":{
+            "con":"+4",
+            "wis":"+6"
          },
-         "senses": [
+         "senses":[
             "darkvision 60 ft.",
             "blindsight 30 ft."
          ],
-         "passive": 14,
-         "resist": [
+         "passive":14,
+         "resist":[
             "necrotic"
          ],
-         "immune": [
+         "immune":[
             "poison",
             "psychic"
          ],
-         "conditionImmune": [
+         "conditionImmune":[
             "charmed",
             "frightened",
             "poisoned"
          ],
-         "languages": [
+         "languages":[
             "understands all languages but can't speak",
             "telepathy 60 ft."
          ],
-         "cr": "2",
-         "trait": [
+         "cr":"2",
+         "trait":[
             {
-               "name": "Fill text When an insane eternal healer ends its turn and can see or otherwise sense a creature affected by a condition, disease, poison, or that has less than its maximum hit points, it makes a {@dc 15} Wisdom saving throw",
-               "entries": [
+               "name":"Fill text When an insane eternal healer ends its turn and can see or otherwise sense a creature affected by a condition, disease, poison, or that has less than its maximum hit points, it makes a {@dc 15} Wisdom saving throw",
+               "entries":[
                   "On a success, its madness ends."
                ]
             },
             {
-               "name": "Medical Artisan",
-               "entries": [
+               "name":"Medical Artisan",
+               "entries":[
                   "If the healer is provided with the raw materials, it can build a prosthetic limb (TCE page 34)."
                ]
             }
          ],
-         "action": [
+         "action":[
             {
-               "name": "Suture/Condemn",
-               "entries": [
+               "name":"Suture/Condemn",
+               "entries":[
                   "The eternal healer touches a creature within 5 feet of it, which regains 11 ({@dice 2d10}) hit points. If the healer is insane, it instead forces the target to make a {@dc 15} Constitution saving throw. On a failed save, the target takes 15 ({@damage 3d10}) necrotic damage."
                ]
             },
             {
-               "name": "Healer's Senses",
-               "entries": [
+               "name":"Healer's Senses",
+               "entries":[
                   "The eternal healer knows the exact location of any creature without all its hit points within 60 feet of it."
                ]
             },
             {
-               "name": "Madness of Servitude",
-               "entries": [
+               "name":"Madness of Servitude",
+               "entries":[
                   "If the eternal healer goes 7 days without sensing or seeing a creature affected by a condition, disease, poison or that has less than its maximum hit points, it goes mad. While in this state, it has resistance to bludgeoning, piercing, and slashing damage, and can use its Suture/Condemn attack twice, instead of once, when it takes the Attack action."
                ]
             },
             {
-               "name": "Hollow Stare {@recharge 5}",
-               "entries": [
+               "name":"Hollow Stare {@recharge 5}",
+               "entries":[
                   "The eternal healer focuses on a creature that it can see within 30 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition charmed} by the eternal healer for 1 hour or until it dies. A creature that declined healing or other support from the eternal healer within the last 7 days automatically fails this saving throw. The {@condition charmed} creature cannot willingly look at anything other than the eternal healer, and obeys its orders without question. The target can repeat the saving throw every time the healer gives it a command, ending the effect on itself on a success. If the target succeeds on a saving throw against this feature, it is immune to the eternal healer's Hollow Stare for the next 24 hours."
                ]
             }
          ],
-         "senseTags": [
+         "senseTags":[
             "B",
             "D"
          ],
-         "languageTags": [
+         "languageTags":[
             "CS",
             "TP",
             "XX"
          ],
-         "damageTags": [
+         "damageTags":[
             "N"
          ],
-         "conditionInflict": [
+         "conditionInflict":[
             "charmed"
          ],
-         "savingThrowForced": [
+         "savingThrowForced":[
             "constitution",
             "wisdom"
-         ],      
-         "tokenHref": {
-            "type": "external",
-            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         ],
+         "tokenHref":{
+            "type":"external",
+            "url":"https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
-      }                              
-    ]
- }
+      }
+   ]
+}
