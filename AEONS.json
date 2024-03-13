@@ -335,7 +335,7 @@
       {
          "name": "Amber Syrup",
          "source": "AEONS",
-         "page": 0,
+         "page": 61,
          "size": [
             "H"
          ],
@@ -478,6 +478,719 @@
             "type": "external",
             "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
          }
-      }      
+      },
+      {
+         "name": "Lesser Amber Syrup",
+         "source": "AEONS",
+         "page": 62,
+         "size": [
+            "M"
+         ],
+         "type": "ooze",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 22,
+            "formula": "3d8 + 9"
+         },
+         "speed": {
+            "walk": 20
+         },
+         "str": 15,
+         "dex": 8,
+         "con": 16,
+         "int": 4,
+         "wis": 8,
+         "cha": 1,
+         "senses": [
+            "blindsight 60 ft. (blind beyond this radius)"
+         ],
+         "passive": 9,
+         "resist": [
+            "acid",
+            "necrotic"
+         ],
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "conditionImmune": [
+            "blinded",
+            "charmed",
+            "deafened",
+            "exhaustion",
+            "frightened",
+            "poisoned",
+            "prone"
+         ],
+         "cr": "1",
+         "trait": [
+            {
+               "name": "Amorphous",
+               "entries": [
+                  "The syrup can move through a space as narrow as 1 inch wide without squeezing."
+               ]
+            },
+            {
+               "name": "Crystallizing Body",
+               "entries": [
+                  "When the syrup hits a creature with an attack, the creature's speed is reduced by 15 feet until the end of its next turn."
+               ]
+            },
+            {
+               "name": "Encase",
+               "entries": [
+                  "When a creature hits the syrup with a melee attack, it has disadvantage on attack rolls until the start of its next turn."
+               ]
+            },
+            {
+               "name": "Perfectly Preserved",
+               "entries": [
+                  "When the syrup dies, it transforms into solid amber crystal."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Amber Scalpel",
+               "entries": [
+                  "{@atk mw} {@hit 4} to hit, reach 10 ft., one target. {@h}11 ({@damage 2d8 + 2}) slashing damage."
+               ]
+            },
+            {
+               "name": "Crystal Fling",
+               "entries": [
+                  "{@atk rw} {@hit 4} to hit, range 60 ft., one target. {@h}9 ({@damage 2d6 + 2}) piercing damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Amorphous"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "damageTags": [
+            "P",
+            "S"
+         ],
+         "miscTags": [
+            "MW",
+            "RCH",
+            "RW"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      },
+      {
+         "name": "Brick Golem",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "construct",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 17,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 104,
+            "formula": "11d10 + 44"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": 18,
+         "dex": 14,
+         "con": 18,
+         "int": 3,
+         "wis": 11,
+         "cha": 1,
+         "senses": [
+            "darkvision 120 ft."
+         ],
+         "passive": 10,
+         "immune": [
+            "poison",
+            "psychic",
+            {
+               "immune": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical weapons that aren't adamantine",
+               "cond": true
+            }
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "petrified",
+            "poisoned"
+         ],
+         "languages": [
+            "understands the languages of its creator but can't speak"
+         ],
+         "cr": "8",
+         "trait": [
+            {
+               "name": "Immutable Form",
+               "entries": [
+                  "The golem is immune to any spell or effect that would alter its form."
+               ]
+            },
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The golem has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Magic Weapons",
+               "entries": [
+                  "The golem's weapon attacks are magical."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The golem makes two slam attacks."
+               ]
+            },
+            {
+               "name": "Slam",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Divide and Conquer",
+               "entries": [
+                  "When a brick golem that is Large or smaller is hit by an attack that deals slashing or bludgeoning damage, it splits into two brick golems if it has at least 25 hit points. Each new brick golem has hit points equal to half the original golem's, rounded down."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Immutable Form",
+            "Magic Resistance",
+            "Magic Weapons"
+         ],
+         "senseTags": [
+            "SD"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "CS"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MW"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      },
+      {
+         "name": "Clocktopus",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "S"
+         ],
+         "type": "construct",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            12
+         ],
+         "hp": {
+            "average": 22,
+            "formula": "4d6 + 8"
+         },
+         "speed": {
+            "walk": 20,
+            "climb": 20
+         },
+         "str": 14,
+         "dex": 12,
+         "con": 15,
+         "int": 1,
+         "wis": 10,
+         "cha": 7,
+         "save": {
+            "con": "+4"
+         },
+         "senses": [
+            "tremorsense 30 ft."
+         ],
+         "passive": 10,
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "conditionImmune": [
+            "frightened",
+            "poisoned"
+         ],
+         "cr": "1/4",
+         "trait": [
+            {
+               "name": "Exact Timing",
+               "entries": [
+                  "The clocktopus takes its turn on initiative count 15 (losing initiative ties)."
+               ]
+            },
+            {
+               "name": "Momentum-Powered",
+               "entries": [
+                  "The clocktopus falls {@condition unconscious} if it is not touching a solid surface."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Mechantacle",
+               "entries": [
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}7 ({@damage 2d4 + 2}) bludgeoning damage. Once per turn if the clocktopus scores a critical hit, it can make an additional attack against the target as part of the same action."
+               ]
+            },
+            {
+               "name": "Time Switch {@recharge 5}",
+               "entries": [
+                  "The clocktopus alters its gear speed, adjusting the flow of time around it and forcing a creature it can see within 30 feet of it to make a {@dc 13} Constitution saving throw. On a failed save, the target is affected by the {@spell slow} spell, and the clocktopus can cast the {@spell haste} spell on a creature it can see within 30 feet of it. On a success, the clocktopus is affected by the {@spell slow} spell until it uses this feature again."
+               ]
+            }
+         ],
+         "senseTags": [
+            "T"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      },
+      {
+         "name": "Crawling Apocalypse",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "G"
+         ],
+         "type": "undead",
+         "alignment": [
+            "L",
+            "E"
+         ],
+         "ac": [
+            {
+               "ac": 16,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 279,
+            "formula": "18d20 + 90"
+         },
+         "speed": {
+            "walk": 20,
+            "burrow": 20
+         },
+         "str": 26,
+         "dex": 7,
+         "con": 21,
+         "int": 11,
+         "wis": 18,
+         "cha": 20,
+         "save": {
+            "con": "+10",
+            "wis": "+9"
+         },
+         "senses": [
+            "darkvision 60 ft."
+         ],
+         "passive": 14,
+         "resist": [
+            "necrotic",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "vulnerable": [
+            "fire"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "poisoned"
+         ],
+         "languages": [
+            "understands Abyssal",
+            "Celestial",
+            "Infernal",
+            "Marru",
+            "and Primordial but can't speak"
+         ],
+         "cr": "17",
+         "trait": [
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The crawling apocalypse has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Regeneration",
+               "entries": [
+                  "The crawling apocalypse regains 10 hit points at the start of its turn. If the crawling apocalypse takes acid or fire damage, this trait doesn't function at the start of its next turn. The crawling apocalypse dies only if it starts its turn with 0 hit points and doesn't regenerate."
+               ]
+            },
+            {
+               "name": "Siege Monster",
+               "entries": [
+                  "The crawling apocalypse deals double damage to objects and structures."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The crawling apocalypse uses its dreadful presence. It then makes two rotting tentacle attacks."
+               ]
+            },
+            {
+               "name": "Rotting Tentacle",
+               "entries": [
+                  "{@atk mw} {@hit 14} to hit, reach 30 ft., one target. {@h}53 ({@damage 10d8 + 8}) necrotic damage. If the target is a creature, it must succeed on a {@dc 18} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+               ]
+            },
+            {
+               "name": "Dreadful Presence",
+               "entries": [
+                  "Each creature of the crawling apocalypse's choice that is within 120 feet of it and aware of it must succeed on a {@dc 18} Wisdom saving throw or become {@condition frightened} for 1 minute. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} until the end of its next turn. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, it is immune to the crawling apocalypse's Dreadful Presence for the next 24 hours."
+               ]
+            },
+            {
+               "name": "Choking Breath {@recharge 5}",
+               "entries": [
+                  "The crawling apocalypse exhales a cloud of sickening dust in a 90-foot cone. Each creature in the area must make a {@dc 18} Constitution saving throw, taking 27 ({@damage 5d10}) necrotic damage plus 27 ({@damage 5d10}) poison damage on a failed save, or half as much damage on a successful one. If a target fails the saving throw by 5 or more, it suffers one level of {@condition exhaustion}."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Magic Resistance",
+            "Regeneration",
+            "Siege Monster"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "actionTags": [
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "languageTags": [
+            "AB",
+            "CE",
+            "CS",
+            "I",
+            "P"
+         ],
+         "damageTags": [
+            "I",
+            "N"
+         ],
+         "miscTags": [
+            "AOE",
+            "MW",
+            "RCH"
+         ],
+         "conditionInflict": [
+            "frightened",
+            "paralyzed"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "wisdom"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      },
+      {
+         "name": "Crystal Ruin Crab",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "T"
+         ],
+         "type": "beast",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 22,
+            "formula": "3d8 + 9"
+         },
+         "speed": {
+            "walk": 20,
+            "burrow": 10,
+            "swim": 10
+         },
+         "str": 14,
+         "dex": 13,
+         "con": 16,
+         "int": 1,
+         "wis": 9,
+         "cha": 4,
+         "senses": [
+            "blindsight 60 ft."
+         ],
+         "passive": 9,
+         "resist": [
+            {
+               "resist": [
+                  "slashing"
+               ],
+               "note": "damage from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "cr": "1",
+         "trait": [
+            {
+               "name": "False Appearance",
+               "entries": [
+                  "While the crab remains motionless, it is indistinguishable from a gemstone."
+               ]
+            },
+            {
+               "name": "Elemental Crystallization",
+               "entries": [
+                  "The crab has immunity to one of the following damage types: acid, cold, fire, lightning, or radiant."
+               ]
+            },
+            {
+               "name": "Energy Reflux",
+               "entries": [
+                  "When the crab would take damage of the type it is immune to, every creature within 10 feet of it must make a {@dc 13} Constitution saving throw. On a failed save, a target takes 7 ({@damage 2d6}) damage of that type."
+               ]
+            },
+            {
+               "name": "Debris Shell",
+               "entries": [
+                  "While its shell isn't broken, the crab has a +3 bonus to its AC (included in its statistics). If damage would reduce the ruin crab to 0 hit points, its shell breaks, it is reduced to 1 hit point instead, and one object from the crystal ruin crab treasures table drops into the ruin crab's space. The crab can spend 1 hour collecting crystals to rebuild its Debris Shell."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Claw",
+               "entries": [
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "False Appearance"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      },
+      {
+         "name": "Eternal Healer",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "undead",
+         "alignment": [
+            "N"
+         ],
+         "ac": [
+            15
+         ],
+         "hp": {
+            "average": 39,
+            "formula": "6d8 + 12"
+         },
+         "speed": {
+            "fly": {
+               "number": 30,
+               "condition": "(hover)"
+            },
+            "canHover": true
+         },
+         "str": 12,
+         "dex": 17,
+         "con": 15,
+         "int": 10,
+         "wis": 19,
+         "cha": 8,
+         "save": {
+            "con": "+4",
+            "wis": "+6"
+         },
+         "senses": [
+            "darkvision 60 ft.",
+            "blindsight 30 ft."
+         ],
+         "passive": 14,
+         "resist": [
+            "necrotic"
+         ],
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "frightened",
+            "poisoned"
+         ],
+         "languages": [
+            "understands all languages but can't speak",
+            "telepathy 60 ft."
+         ],
+         "cr": "2",
+         "trait": [
+            {
+               "name": "Fill text When an insane eternal healer ends its turn and can see or otherwise sense a creature affected by a condition, disease, poison, or that has less than its maximum hit points, it makes a {@dc 15} Wisdom saving throw",
+               "entries": [
+                  "On a success, its madness ends."
+               ]
+            },
+            {
+               "name": "Medical Artisan",
+               "entries": [
+                  "If the healer is provided with the raw materials, it can build a prosthetic limb (TCE page 34)."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Suture/Condemn",
+               "entries": [
+                  "The eternal healer touches a creature within 5 feet of it, which regains 11 ({@dice 2d10}) hit points. If the healer is insane, it instead forces the target to make a {@dc 15} Constitution saving throw. On a failed save, the target takes 15 ({@damage 3d10}) necrotic damage."
+               ]
+            },
+            {
+               "name": "Healer's Senses",
+               "entries": [
+                  "The eternal healer knows the exact location of any creature without all its hit points within 60 feet of it."
+               ]
+            },
+            {
+               "name": "Madness of Servitude",
+               "entries": [
+                  "If the eternal healer goes 7 days without sensing or seeing a creature affected by a condition, disease, poison or that has less than its maximum hit points, it goes mad. While in this state, it has resistance to bludgeoning, piercing, and slashing damage, and can use its Suture/Condemn attack twice, instead of once, when it takes the Attack action."
+               ]
+            },
+            {
+               "name": "Hollow Stare {@recharge 5}",
+               "entries": [
+                  "The eternal healer focuses on a creature that it can see within 30 feet of it. The target must succeed on a {@dc 15} Wisdom saving throw or be magically {@condition charmed} by the eternal healer for 1 hour or until it dies. A creature that declined healing or other support from the eternal healer within the last 7 days automatically fails this saving throw. The {@condition charmed} creature cannot willingly look at anything other than the eternal healer, and obeys its orders without question. The target can repeat the saving throw every time the healer gives it a command, ending the effect on itself on a success. If the target succeeds on a saving throw against this feature, it is immune to the eternal healer's Hollow Stare for the next 24 hours."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B",
+            "D"
+         ],
+         "languageTags": [
+            "CS",
+            "TP",
+            "XX"
+         ],
+         "damageTags": [
+            "N"
+         ],
+         "conditionInflict": [
+            "charmed"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "wisdom"
+         ],      
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/AEONS/main/_img/Temperory%20Token%20Border.png"
+         }
+      }                              
     ]
  }
