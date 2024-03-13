@@ -1551,6 +1551,130 @@
          "savingThrowForced":[
             "strength"
          ]
-      }
+      },
+      {
+         "name": "Gemlin Progenitor",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "elemental",
+         "alignment": [
+            "C",
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 16,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 37,
+            "formula": "5d8 + 15"
+         },
+         "speed": {
+            "walk": 40,
+            "burrow": 40
+         },
+         "str": 14,
+         "dex": 16,
+         "con": 16,
+         "int": 10,
+         "wis": 14,
+         "cha": 10,
+         "save": {
+            "con": "+5"
+         },
+         "senses": [
+            "darkvision 60 ft.",
+            "tremorsense 60 ft."
+         ],
+         "passive": 12,
+         "resist": [
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison"
+         ],
+         "conditionImmune": [
+            "exhaustion",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "unconscious"
+         ],
+         "languages": [
+            "Terran"
+         ],
+         "cr": "1",
+         "trait": [
+            {
+               "name": "Crystal Commander",
+               "entries": [
+                  "Each gemlin within 100 feet of the gemlin progenitor that can see or hear it has advantage on attack rolls, ability checks, and saving throws so long as the gemlin progenitor is conscious."
+               ]
+            },
+            {
+               "name": "Earth Glide",
+               "entries": [
+                  "The gemlin can burrow through nonmagical, unworked earth and stone. While doing so, the gemlin doesn't disturb the material it moves through."
+               ]
+            },
+            {
+               "name": "Innate Spellcasting",
+               "entries": [
+                  "The gemlin's innate spellcasting ability is Wisdom (spell save {@dc 12}, {@hit 4} to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                  {
+                     "type": "list",
+                     "items": [
+                        "At-will: one spell from the gemlin juvenile table",
+                        "1/day: one spell from the gemlin progenitor table",
+                        "3/day: one spell from the gemlin table"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "Gemstone Sense",
+               "entries": [
+                  "The gemlin can sense the presence of gemstones within 1,000 feet of itself. It can determine which location has the most valuable gemstones, and the location of the site or sites. If the gemstones are being moved, it knows the direction of the movement. Any thickness of clay or lead, even a thin sheet, blocks this sense if it blocks a direct path between the gemlin and the gemstones."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Gem-Studded Mace",
+               "entries": [
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage"
+               ]
+            }
+         ],
+         "senseTags": [
+            "D",
+            "T"
+         ],
+         "languageTags": [
+            "T"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MLW",
+            "MW"
+         ]
+      }      
    ]
 }
