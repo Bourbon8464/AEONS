@@ -1,0 +1,475 @@
+{
+    "_meta":{
+       "sources":[
+          {
+             "json":"AEAONS",
+             "abbreviation":"AEONS",
+             "full":"Archive of Entombed Omens & Neglected Secrets",
+             "authors":[
+                "fungusamongus, jonoman3000, the_bard"
+             ],
+             "convertedBy":[
+                "Tarun"
+             ],
+             "version":"1.0.0",
+             "color":"ffffff",
+             "url":"https://drive.google.com/file/d/1s3iaWb3EZuMKlxYzFNVs0Ma2ZSBOu7YL/view",
+             "dateReleased":"2024-02-06"
+          }
+       ],
+       "status":"wip",
+       "dateAdded":1710327288,
+       "dateLastModified":1710327288
+    },
+    "race":[
+       {
+          "name":"Echo",
+          "source":"AEAONS",
+          "page":4,
+          "speed":30,
+          "size":[
+             "S",
+             "M"
+          ],
+          "languageProficiencies":[
+             {
+                "common":true
+             }
+          ],
+          "traitTags":[
+             "Skill Proficiency"
+          ],
+          "ability":[
+             {
+                "cha":2,
+                "con":1
+             }
+          ],
+          "entries":[
+             {
+                "type":"entries",
+                "name":"Ability Score Increase",
+                "entries":[
+                   "Your Charisma score increases by 2, and your Constitution score increases by 1."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Age",
+                "entries":[
+                   "Many echoes face a brief existence, though one full of meaning. They form fully mature and typically live between 20 and 30 years."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Alignment",
+                "entries":[
+                   "Echoes, like their creators, can exemplify any alignment, but are typically influenced by their origins."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Size",
+                "entries":[
+                   "You are Medium or Small. You choose your size when you select this race. Your weight is a fourth of the weight of the creature that birthed you at the time of your creation."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Speed",
+                "entries":[
+                   "Your base walking speed is 30 feet."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Imitator's Legacy",
+                "entries":[
+                   "Echoes appear as many different races and lineages, but they are not what they appear to be. Your skill in replicating what you are not grants you proficiency in {@skill Deception} and {@skill Intimidation}."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Enchanted Existence",
+                "entries":[
+                   "You don't need to sleep and magic cannot put you to sleep. You can finish a long rest in 4 hours so long as you spend those hours in meditation or enjoying light activity. You also have advantage on saving throws against being {@condition charmed} or {@condition frightened}."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Art Imitates Life",
+                "entries":[
+                   "When a creature other than you within 30 feet of you that you can see makes a weapon attack or casts a cantrip, you can use your reaction to make one weapon attack or cast a cantrip of your own against the same target.",
+                   "You can use this feature a number of times equal to your Charisma modifier (a minimum of once) and regain all expended uses when you finish a long rest."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Languages",
+                "entries":[
+                   "Common and another language"
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Ji",
+          "source":"AEAONS",
+          "page":5,
+          "size":[
+             "M"
+          ],
+          "speed":30,
+          "languageProficiencies":[
+             {
+                "common":true,
+                "anyStandard":1
+             }
+          ],
+          "ability":[
+             {
+                "con":2,
+                "choose":{
+                   "from":[
+                      "str",
+                      "dex",
+                      "cha",
+                      "int",
+                      "wis"
+                   ],
+                   "count":1
+                }
+             }
+          ],
+          "entries":[
+             {
+                "type":"entries",
+                "name":"Ability Score Increase",
+                "entries":[
+                   "Your Constitution score increases by 2, and another ability score of your choice increases by 1."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Age",
+                "entries":[
+                   "Ji do not age. They are born fully-formed from a mask created by one or more ji parents. Youths are rare; most ji have lived for centuries."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Alignment",
+                "entries":[
+                   "Independent and unbound by borders, most ji are chaotic. Having seen empires rise and fall, they are often passive, preferring neutrality in the battles between good and evil."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Speed",
+                "entries":[
+                   "Your base walking speed is 30 feet."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Language",
+                "entries":[
+                   "You can speak, read, and write Common and one other language of your choice. Ji often know exotic, extinct, or monstrous tongues."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Masked Speaker",
+                "entries":[
+                   "You have never seen the face of another ji, and may not have seen your own. As such, you learn other ways of understanding. Others have disadvantage on Wisdom ({@skill Insight}) checks made to discern your intentions, and you have advantage on Wisdom ({@skill Insight}) checks to understand intent through body language, tone, or other factors besides the target's expression."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Mask Maker",
+                "entries":[
+                   "You gain proficiency in one of the following {@item artisan's tools|PHB}: glassblower's, jeweler's, mason's, potter's, smith's, or woodcarver's."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Pilgrim of the Wind",
+                "entries":[
+                   "You take no damage if you fall from a height of 60 feet or less."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Tireless Walker",
+                "entries":[
+                   "You have advantage on saving throws against {@condition exhaustion} and you ignore nonmagical {@quickref difficult terrain||3}."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Voice of the Ages",
+                "entries":[
+                   "You can use an action to emit a few nostalgic notes from a song long forgotten. Creatures of your choice within 60 feet of you gain temporary hit points equal to your level. Plants and flowers within the area bloom and grow, regardless of season. A target must be able to hear you to be affected by this feature. Once you use this feature, you can't do so again until you finish a short or long rest."
+                ]
+             }
+          ]
+       },
+       {
+          "name":"Prymid",
+          "source":"AEAONS",
+          "page":7,
+          "languageProficiencies":[
+             {
+                "common":true,
+                "anyStandard":1
+             }
+          ],
+          "size":[
+             "M",
+             "S"
+          ],
+          "speed":30,
+          "ability":[
+             {
+                "dex":2,
+                "str":1,
+                "wis":1
+             }
+          ],
+          "entries":[
+             {
+                "type":"entries",
+                "name":"Ability Score Increase",
+                "entries":[
+                   "Your Dexterity score increases by 2, and your Strength and Wisdom scores increase by 1."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Age",
+                "entries":[
+                   "Most prymids perish long before their time. The few that survive possess centuries of memories and can recount tales of the creators of the ruins prymids often inhabit. They mature to adulthood within two years."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Alignment",
+                "entries":[
+                   "Prymids care most about the survival of themselves and their loved ones, and rarely take sides in external conflicts. If they believe it is safe to do so, they will offer assistance to others. They are usually chaotic and rarely evil."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Size",
+                "entries":[
+                   "Most prymids range from 1½ feet to 3 feet tall and weigh up to 25 lbs. Others range from 4-5 feet tall and weigh up to 300 pounds. You are Medium or Small. You choose the size when you select this race."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Speed",
+                "entries":[
+                   "Your base walking speed is 30 feet, and you have a climbing speed equal to your walking speed."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Language",
+                "entries":[
+                   "You can speak, read, and write Common and one other language of your choice. Prymids usually learn the languages of nearby settlements."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Ape Escape",
+                "entries":[
+                   "When you take the {@action Disengage} action, you can take the {@action Hide} action as part of the same action."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Prehensile Tail",
+                "entries":[
+                   "A tail extends from the middle of your back just above your legs. This tail has a reach of 5 feet, and you can manipulate it as if it were another limb. It can lift a number of pounds equal to your Strength score, and you can use it to do simple tasks such as pulling a lever or opening a door. Your tail conceals a sharp, retractable spike, which you can use to make an unarmed strike. When you hit with it, the strike deals {@damage 1d6} + your Strength modifier in piercing damage, instead of the bludgeoning damage normal for an unarmed strike."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Bizarre Adaptation",
+                "entries":[
+                   "Your primeval biology allows you to grow parts that help you adjust to your environment. Choose an adaptation from the list below:"
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Chlorophyll",
+                "entries":[
+                   "Your skin and fur are tinted green, allowing you to sustain yourself as plants do. 1 hour in direct sunlight provides you with enough nourishment to sustain you for one day (though you can still eat normally). If you spend the entire duration of a short rest exposed to direct sunlight, you can choose a number of hit dice up to your Constitution modifier (a minimum of 1) and treat those dice as if you had rolled the maximum result."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Eyespot",
+                "entries":[
+                   "An extra, rudimentary eye grows within your flesh or on a short stalk that extends from the tip of your tail, the nape of your neck, or another part of your body. You have advantage on saving throws against being {@condition blinded}. If you are {@condition blinded}, you can still see and do not automatically fail checks that require sight. The other penalties of the {@condition blinded} condition still apply to you."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Quills",
+                "entries":[
+                   "Sharp spines hide within your fur. If a creature grapples you, it takes {@damage 1d6} piercing damage. When you would make a weapon attack, you can instead choose to launch your quills, which are ranged weapons with a normal range of 20 feet and a long range of 60 feet. You can use your Strength or Dexterity modifier for the attack and damage rolls of your quills (you must use the same modifier for both rolls). The quills have a damage die of {@dice 1d8}. You can make this attack a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest. If you expend all your uses, creatures that grapple you take no damage from your quills."
+                ]
+             },
+             {
+                "type":"entries",
+                "name":"Spinnerets",
+                "entries":[
+                   "You have small glands that you can use to spin webs. You can use your action to connect a line of webs to a creature of your size or smaller, preventing it from moving more than 15 feet from you. A creature that can reach the line can use its action to break the web. You can also use an action to adhere an object weighing no more than 25 pounds to another surface. Your webs dissolve 1 hour after their application."
+                ]
+             }
+          ]
+       }
+    ],
+    "monster": [
+      {
+         "name": "Amber Syrup",
+         "source": "AEONS",
+         "page": 61,
+         "size": [
+            "H"
+         ],
+         "type": "ooze",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 105,
+            "formula": "10d12 + 40"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": 17,
+         "dex": 8,
+         "con": 18,
+         "int": 4,
+         "wis": 10,
+         "cha": 1,
+         "senses": [
+            "blindsight 90 ft. (blind beyond this radius)"
+         ],
+         "resist": [
+            "acid",
+            "necrotic",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "conditionImmune": [
+            "blinded",
+            "charmed",
+            "deafened",
+            "exhaustion",
+            "frightened",
+            "poisoned",
+            "prone"
+         ],
+         "cr": "7",
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The syrup makes two Amber Scalpel or Crystal Fling attacks."
+               ]
+            },
+            {
+               "name": "Amber Scalpel",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 10 ft., one target. {@h}30 ({@damage 6d8 + 3}) slashing damage."
+               ]
+            },
+            {
+               "name": "Crystal Fling",
+               "entries": [
+                  "{@atk rw} {@hit 7} to hit, range 60 ft., one target. {@h}17 ({@damage 4d6 + 3}) piercing damage."
+               ]
+            },
+            {
+               "name": "Engulf",
+               "entries": [
+                  "The syrup moves up to its speed. When it does so, it can enter the space of a creature its size or smaller. Whenever the syrup enters a creature's space, the creature must make a {@dc 17} Dexterity saving throw. On a successful save the syrup's movement stops before entering the creature's space. On a failed save, the syrup enters the creature's space and the creature takes 21 ({@damage 6d6}) acid damage and is engulfed. The engulfed creature can't breathe, is {@condition restrained}, and has total cover from attacks and effects outside the syrup. When the syrup moves, the engulfed creature moves with it. A creature who dies inside the syrup becomes {@condition petrified} and covered in a semitransparent glaze of amber. This coating has 20 hit points, and frees the corpse of the creature when destroyed. An engulfed creature can try to escape by using an action to make a {@dc 17} Strength check. On a success, the creature escapes and enters a space of its choice within 5 feet of the syrup."
+               ]
+            },
+            {
+               "name": "Amorphous",
+               "entries": [
+                  "The syrup can move through a space as narrow as 1 inch wide without squeezing."
+               ]
+            },
+            {
+               "name": "Crystallizing Body",
+               "entries": [
+                  "When the syrup hits a creature with an attack, the creature's speed is reduced by 15 feet until the end of its next turn."
+               ]
+            },
+            {
+               "name": "Encase",
+               "entries": [
+                  "When a creature hits the syrup with a melee attack, it has disadvantage on attack rolls until the start of its next turn."
+               ]
+            },
+            {
+               "name": "Perfectly Preserved",
+               "entries": [
+                  "When the syrup dies, it transforms into solid amber crystal."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "damageTags": [
+            "A",
+            "P",
+            "S"
+         ],
+         "miscTags": [
+            "MW",
+            "RCH",
+            "RW"
+         ],
+         "conditionInflict": [
+            "restrained"
+         ],
+         "savingThrowForced": [
+            "dexterity"
+         ],
+         "tokenHref": {
+            "type": "external",
+            "url": "https://raw.githubusercontent.com/Bourbon8464/One-Piece-Themed-DnD/main/_img/kitsune.png"
+         }
+      }      
+    ]
+ }
