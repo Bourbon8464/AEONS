@@ -1675,6 +1675,2281 @@
             "MLW",
             "MW"
          ]
-      }      
+      },
+      {
+         "name": "Geocacher",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "S"
+         ],
+         "type": "fey",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 13,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 14,
+            "formula": "4d4 + 4"
+         },
+         "speed": {
+            "walk": 40
+         },
+         "str": 10,
+         "dex": 16,
+         "con": 12,
+         "int": 10,
+         "wis": 16,
+         "cha": 10,
+         "skill": {
+            "stealth": "+5",
+            "survival": "+5"
+         },
+         "senses": [
+            "darkvision 120ft"
+         ],
+         "passive": 13,
+         "conditionImmune": [
+            "blinded",
+            "exhaustion",
+            "grappled",
+            "incapacitated",
+            "paralyzed",
+            "restrained"
+         ],
+         "languages": [
+            "understands all languages but can't speak"
+         ],
+         "cr": "1/4",
+         "trait": [
+            {
+               "name": "Follow Your Mark",
+               "entries": [
+                  "Upon its creation, the geocacher receives a mark. This mark can be a specific location or specific person. The geocacher always knows the direction of the mark as long as they are both on the same plane. This mark lasts until the geocacher fulfills its purpose."
+               ]
+            },
+            {
+               "name": "Fey Ancestry",
+               "entries": [
+                  "Magic can't put the geocacher to sleep."
+               ]
+            },
+            {
+               "name": "Treasure Sense",
+               "entries": [
+                  "The geocacher can pinpoint, by scent, the location of precious metals and stones, such as coins and gems, within 60 feet of it."
+               ]
+            },
+            {
+               "name": "Misty Step (2/Day)",
+               "entries": [
+                  "The geocacher casts the {@spell misty step} spell. Wisdom is its spellcasting ability for this spell."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Pulse",
+               "entries": [
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage."
+               ]
+            },
+            {
+               "name": "Flare",
+               "entries": [
+                  "{@atk rw} {@hit 5} to hit, range 60/180 ft., one target. {@h}6 ({@damage 1d6 + 3}) force damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Fey Ancestry"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "languageTags": [
+            "CS",
+            "XX"
+         ],
+         "damageTags": [
+            "O"
+         ],
+         "miscTags": [
+            "MW",
+            "RW"
+         ]
+      },
+      {
+         "name": "Giant Ammonite",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "beast",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 14,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 90,
+            "formula": "12d10 + 24"
+         },
+         "speed": {
+            "walk": 0,
+            "swim": 30
+         },
+         "str": 16,
+         "dex": 12,
+         "con": 14,
+         "int": 3,
+         "wis": 10,
+         "cha": 4,
+         "passive": 10,
+         "cr": "3",
+         "trait": [
+            {
+               "name": "Predator",
+               "entries": [
+                  "The giant ammonite has advantage on attack rolls made against creatures it is grappling."
+               ]
+            },
+            {
+               "name": "Jet Propulsion",
+               "entries": [
+                  "The giant ammonite can Dash as a bonus action. When it does so, it can only move in a straight line in the same direction it dashed in until the end of its turn."
+               ]
+            },
+            {
+               "name": "Water Breathing",
+               "entries": [
+                  "The giant ammonite can breathe only underwater."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The giant ammonite makes two attacks: one with its tentacles and one with its bite."
+               ]
+            },
+            {
+               "name": "Tentacle",
+               "entries": [
+                  "{@atk mw} {@hit 5} to hit, reach 20 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage. If the target is Medium or smaller, it is {@condition grappled} and pulled to a space within 5 feet of the giant ammonite. Until this grapple ends, the giant ammonite cannot make a tentacle attack against another target."
+               ]
+            },
+            {
+               "name": "Beak",
+               "entries": [
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}21 ({@damage 4d8 + 3}) piercing damage."
+               ]
+            },
+            {
+               "name": "Shell Defense",
+               "entries": [
+                  "The giant ammonite withdraws into its shell, gaining a +4 bonus to AC until it emerges. It can emerge from the shell as a bonus action on its turn."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Water Breathing"
+         ],
+         "actionTags": [
+            "Multiattack",
+            "Tentacles"
+         ],
+         "damageTags": [
+            "B",
+            "P"
+         ],
+         "miscTags": [
+            "MW",
+            "RCH"
+         ],
+         "conditionInflict": [
+            "grappled"
+         ]
+      },
+      {
+         "name": "Giant Sloth",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "H"
+         ],
+         "type": "beast",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 12,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 123,
+            "formula": "13d12 + 39"
+         },
+         "speed": {
+            "walk": 15,
+            "climb": 15
+         },
+         "str": 22,
+         "dex": 8,
+         "con": 16,
+         "int": 2,
+         "wis": 10,
+         "cha": 2,
+         "save": {
+            "str": "+8",
+            "con": "+5"
+         },
+         "skill": {
+            "athletics": "+8"
+         },
+         "passive": 10,
+         "cr": "4",
+         "trait": [
+            {
+               "name": "Long-Limbed",
+               "entries": [
+                  "The giant sloth can move through the spaces of Large or smaller creatures, including hostile creatures, without any reduction to its speed."
+               ]
+            },
+            {
+               "name": "Well-Rested",
+               "entries": [
+                  "The giant sloth can't be put to sleep."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Claw",
+               "entries": [
+                  "{@atk mw} {@hit 8} to hit, reach 15 ft., one target. {@h}34 ({@damage 8d6 + 6}) slashing damage"
+               ]
+            }
+         ],
+         "damageTags": [
+            "S"
+         ],
+         "miscTags": [
+            "MW",
+            "RCH"
+         ]
+      },
+      {
+         "name": "Hell Pig",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "beast",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 120,
+            "formula": "16d10 + 32"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": 18,
+         "dex": 14,
+         "con": 14,
+         "int": 2,
+         "wis": 9,
+         "cha": 5,
+         "passive": 9,
+         "cr": "4",
+         "trait": [
+            {
+               "name": "Decapitator",
+               "entries": [
+                  "If the hell pig rolls a 20 on an attack roll with its bite against a creature that has at least 1 head, the target must make a {@dc 14} Constitution saving throw. On a failed save, the target's head is cut off. It dies if it can't survive without the lost head. A creature is immune to this effect if it is immune to slashing damage, doesn't have or need a head, has legendary actions, or if the DM decides that the creature is too big for its head to be cut off with the hell pig's jaws."
+               ]
+            },
+            {
+               "name": "Keen Senses",
+               "entries": [
+                  "The hell pig has advantage on Wisdom ({@skill Perception}) checks that rely on smell."
+               ]
+            },
+            {
+               "name": "Charge",
+               "entries": [
+                  "If the hell pig moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 ({@damage 2d6}) piercing damage. If the target is a creature, it must succeed on a {@dc 14} Strength saving throw or be knocked {@condition prone}."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Bite",
+               "entries": [
+                  "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}31 ({@damage 5d10 + 4}) piercing damage. If this attack kills a Medium or smaller creature, its body is split into halves, one of which the hell pig immediately swallows (no action required)."
+               ]
+            },
+            {
+               "name": "Tusk",
+               "entries": [
+                  "{@atk mw} {@hit 6} to hit, reach 5 ft., one target. {@h}18 ({@damage 4d6 + 3}) piercing damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Charge",
+            "Keen Senses"
+         ],
+         "damageTags": [
+            "P"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "conditionInflict": [
+            "prone"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "strength"
+         ]
+      },
+      {
+         "name": "Hollow",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "construct",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 10,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 21,
+            "formula": "3d8 + 8"
+         },
+         "speed": {
+            "walk": 20
+         },
+         "str": 13,
+         "dex": 9,
+         "con": 15,
+         "int": 1,
+         "wis": 10,
+         "cha": 4,
+         "save": {
+            "con": "+4"
+         },
+         "senses": [
+            "blindsight 10 ft."
+         ],
+         "passive": 10,
+         "immune": [
+            "poison",
+            "psychic"
+         ],
+         "vulnerable": [
+            "thunder"
+         ],
+         "conditionImmune": [
+            "frightened",
+            "poisoned"
+         ],
+         "cr": "1/8",
+         "trait": [
+            {
+               "name": "Void Collapse",
+               "entries": [
+                  "When the hollow dies, it implodes in a flash of negative energy. Each creature within 10 feet of it must succeed on a {@dc 10} Constitution saving throw or take 3 ({@damage 1d6}) necrotic damage and forget the last 5 minutes of its life."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Slam",
+               "entries": [
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) bludgeoning damage."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "damageTags": [
+            "B",
+            "N"
+         ],
+         "miscTags": [
+            "AOE",
+            "MW"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ]
+      },
+      {
+         "name": "Ji Ancient One",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": {
+            "type": "humanoid",
+            "tags": [
+               "ji"
+            ]
+         },
+         "alignment": [
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 19,
+               "from": [
+                  "Unarmored Defense"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 117,
+            "formula": "18d8 + 36"
+         },
+         "speed": {
+            "walk": 40
+         },
+         "str": {
+            "special": "15 (+2)"
+         },
+         "dex": {
+            "special": "18 (+4)"
+         },
+         "con": {
+            "special": "15 (+2)"
+         },
+         "int": {
+            "special": "20 (+5)"
+         },
+         "wis": {
+            "special": "20 (+5)"
+         },
+         "cha": {
+            "special": "12 (+1)"
+         },
+         "skill": {
+            "arcana": "+13",
+            "insight": "+9",
+            "nature": "+9",
+            "perception": "+13",
+            "history": "+13",
+            "religion": "+9"
+         },
+         "senses": [
+            "blindsight 120 ft."
+         ],
+         "passive": 23,
+         "resist": [
+            "psychic"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "poisoned"
+         ],
+         "languages": [
+            "Ji",
+            "telepathy 120 ft."
+         ],
+         "cr": "10",
+         "spellcasting": [
+            {
+               "name": "Spellcasting",
+               "type": "spellcasting",
+               "headerEntries": [
+                  "The ancient one is a 13th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The ancient one has the following wizard spells prepared:"
+               ],
+               "spells": {
+                  "0": {
+                     "spells": [
+                        "{@spell blade ward}",
+                        "{@spell dancing lights}",
+                        "{@spell mage hand}"
+                     ]
+                  },
+                  "1": {
+                     "slots": 4,
+                     "spells": [
+                        "{@spell detect magic}",
+                        "{@spell magic missile}",
+                        "{@spell sandblastAEONS}"
+                     ]
+                  },
+                  "2": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell levitate}",
+                        "{@spell locate object}",
+                        "{@spell misty step}"
+                     ]
+                  },
+                  "3": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell sand torrentAEONS}",
+                        "{@spell slow}",
+                        "{@spell tongues}"
+                     ]
+                  },
+                  "4": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell dimension door}",
+                        "{@spell locate creature}",
+                        "{@spell sand vortexAEON}"
+                     ]
+                  },
+                  "5": {
+                     "slots": 2,
+                     "spells": [
+                        "{@spell animate objects}",
+                        "{@spell passwall}",
+                        "{@spell wall of stone}"
+                     ]
+                  },
+                  "6": {
+                     "slots": 1,
+                     "spells": [
+                        "{@spell flesh to stone}",
+                        "{@spell true seeing}"
+                     ]
+                  },
+                  "7": {
+                     "slots": 1,
+                     "spells": [
+                        "{@spell quicksandAEONS}",
+                        "{@spell teleport}"
+                     ]
+                  }
+               },
+               "ability": "int"
+            }
+         ],
+         "trait": [
+            {
+               "name": "Glide on the Wind",
+               "entries": [
+                  "When the Ji ancient one falls and isn't {@condition incapacitated}, it can subtract up to 100 feet from the fall when calculating falling damage."
+               ]
+            },
+            {
+               "name": "Inscrutable",
+               "entries": [
+                  "The ancient one is immune to any effect that would sense its emotions or read its thoughts, as well as any divination spell that it refuses. Wisdom ({@skill Insight}) checks made to ascertain the ancient one's intentions or sincerity have disadvantage."
+               ]
+            },
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The ancient one has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Unarmored Defense",
+               "entries": [
+                  "While the ji ancient one is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The ancient one makes two attacks with its quarterstaff."
+               ]
+            },
+            {
+               "name": "Quarterstaff",
+               "entries": [
+                  "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d6 + 4}) bludgeoning damage plus 11 ({@damage 2d10}) force damage, or 8 ({@damage 1d8 + 4}) bludgeoning damage plus 11 ({@damage 2d10}) force damage if wielded with two hands."
+               ]
+            },
+            {
+               "name": "Cry of Peace {@recharge}",
+               "entries": [
+                  "The ancient one utters a single piercing note. Each creature within 60 feet that can hear the ancient one must make a {@dc 17} Wisdom saving throw. A creature that is hostile to the ancient one makes this saving throw at disadvantage. On a failure, it drops everything it is holding and is {@condition charmed} by the ancient one until the end of the ancient one's next turn. While {@condition charmed} in this way, the creature is {@condition incapacitated}."
+               ]
+            },
+            {
+               "name": "Guiding Light (Recharges after 10 days)",
+               "entries": [
+                  "The ancient one touches a creature other than itself, bestowing upon it the wisdom of ages. For the next 10 days, whenever the target makes an ability check roll or a saving throw using Intelligence or Wisdom, the target can roll a {@dice d8} and add the number rolled to the ability check or saving throw. Additionally, it can cast the {@spell legend lore} spell at will without material components, though the spell only provides information known by the ancient one."
+               ]
+            }
+         ],
+         "attachedItems": [
+            "quarterstaff|phb"
+         ],
+         "traitTags": [
+            "Magic Resistance"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "TP"
+         ],
+         "damageTags": [
+            "B",
+            "O"
+         ],
+         "damageTagsSpell": [
+            "B",
+            "O",
+            "P",
+            "S"
+         ],
+         "spellcastingTags": [
+            "CW"
+         ],
+         "miscTags": [
+            "AOE",
+            "MLW",
+            "MW"
+         ],
+         "conditionInflict": [
+            "incapacitated"
+         ],
+         "conditionInflictSpell": [
+            "petrified",
+            "restrained"
+         ],
+         "savingThrowForced": [
+            "wisdom"
+         ],
+         "savingThrowForcedSpell": [
+            "constitution",
+            "dexterity",
+            "wisdom"
+         ]
+      },
+      {
+         "name": "Ji Wanderer",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": {
+            "type": "humanoid",
+            "tags": [
+               "ji"
+            ]
+         },
+         "alignment": [
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 15,
+               "from": [
+                  "Unarmored Defense"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 55,
+            "formula": "10d8 + 10"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": {
+            "special": "11 (+0)"
+         },
+         "dex": {
+            "special": "15 (+2)"
+         },
+         "con": {
+            "special": "13 (+1)"
+         },
+         "int": {
+            "special": "17 (+3)"
+         },
+         "wis": {
+            "special": "17 (+3)"
+         },
+         "cha": {
+            "special": "10 (+0)"
+         },
+         "skill": {
+            "arcana": "+5",
+            "perception": "+5",
+            "nature": "+3"
+         },
+         "senses": [
+            "blindsight 60 ft."
+         ],
+         "passive": 16,
+         "resist": [
+            "psychic"
+         ],
+         "immune": [
+            "poison"
+         ],
+         "conditionImmune": [
+            "exhaustion",
+            "poisoned"
+         ],
+         "languages": [
+            "Common",
+            "Ji"
+         ],
+         "cr": {
+            "cr": "3",
+            "xp": 1100
+         },
+         "spellcasting": [
+            {
+               "name": "Spellcasting",
+               "type": "spellcasting",
+               "headerEntries": [
+                  "The wanderer is a 7th-level spellcaster. Its spellcasting ability is Intelligence (spell save {@dc 13}, {@hit 5} to hit with spell attacks). The wanderer has the following wizard spells prepared:"
+               ],
+               "spells": {
+                  "0": {
+                     "spells": [
+                        "{@spell blade ward}",
+                        "{@spell dancing lights}",
+                        "{@spell mage hand}"
+                     ]
+                  },
+                  "1": {
+                     "slots": 4,
+                     "spells": [
+                        "{@spell detect magic}",
+                        "{@spell magic missile}",
+                        "{@spell sandblastAEONS}"
+                     ]
+                  },
+                  "2": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell levitate}",
+                        "{@spell locate object}",
+                        "{@spell misty step}"
+                     ]
+                  },
+                  "3": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell sand torrentAEONS}",
+                        "{@spell slow}",
+                        "{@spell tongues}"
+                     ]
+                  },
+                  "4": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell dimension door}",
+                        "{@spell sand vortexAEON}"
+                     ]
+                  }
+               },
+               "ability": "int"
+            }
+         ],
+         "trait": [
+            {
+               "name": "Inscrutable",
+               "entries": [
+                  "Wisdom ({@skill Insight}) checks made to ascertain the wanderer's intentions or sincerity have disadvantage."
+               ]
+            },
+            {
+               "name": "Unarmored Defense",
+               "entries": [
+                  "While the wanderer is wearing no armor and wielding no shield, its AC includes its Wisdom modifier."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The wanderer makes two attacks with its quarterstaff."
+               ]
+            },
+            {
+               "name": "Quarterstaff",
+               "entries": [
+                  "{@atk mw} {@hit 2} to hit, reach 5 ft., one target. {@h}3 ({@damage 1d6}) bludgeoning damage plus 5 ({@damage 1d10}) force damage, or 4 ({@damage 1d8}) bludgeoning damage plus 5 ({@damage 1d10}) force damage if wielded with two hands."
+               ]
+            },
+            {
+               "name": "Cry of Peace {@recharge}",
+               "entries": [
+                  "The wanderer sings a single piercing note. Each creature within 60 feet that can hear the wanderer must make a {@dc 14} Wisdom saving throw. A creature that is hostile to the wanderer makes this saving throw at disadvantage. On a failure, it drops everything it is holding and is {@condition charmed} by the wanderer until the end of the wanderer's next turn."
+               ]
+            }
+         ],
+         "attachedItems": [
+            "quarterstaff|phb"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "C"
+         ],
+         "damageTags": [
+            "B",
+            "O"
+         ],
+         "damageTagsSpell": [
+            "O"
+         ],
+         "spellcastingTags": [
+            "CW"
+         ],
+         "miscTags": [
+            "AOE",
+            "MLW",
+            "MW"
+         ],
+         "savingThrowForced": [
+            "wisdom"
+         ],
+         "savingThrowForcedSpell": [
+            "constitution",
+            "wisdom"
+         ]
+      },
+      {
+         "name": "Laikmets",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "fey",
+         "alignment": [
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 17,
+               "from": [
+                  "shield of will"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 221,
+            "formula": "26d10 + 78"
+         },
+         "speed": {
+            "walk": 30,
+            "fly": {
+               "number": 60,
+               "condition": "(hover)"
+            },
+            "canHover": true
+         },
+         "str": 8,
+         "dex": 11,
+         "con": 17,
+         "int": 19,
+         "wis": 22,
+         "cha": 20,
+         "save": {
+            "str": "+4",
+            "con": "+8",
+            "cha": "+10"
+         },
+         "skill": {
+            "arcana": "+9",
+            "history": "+14",
+            "perception": "+11",
+            "sleight of hand": "+6"
+         },
+         "passive": 21,
+         "resist": [
+            "cold",
+            "lightning",
+            "necrotic",
+            "radiant",
+            "thunder",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "prone",
+            "restrained"
+         ],
+         "languages": [
+            "Common",
+            "Dwarvish",
+            "Elvish",
+            "Giant",
+            "Gnomish",
+            "Goblin",
+            "Halfling",
+            "Orcish",
+            "plus up to 3 exotic languages"
+         ],
+         "cr": "12",
+         "trait": [
+            {
+               "name": "Shield of Will",
+               "entries": [
+                  "The laikmets adds its Wisdom modifier to its Armor Class (included in its statistics)."
+               ]
+            },
+            {
+               "name": "Burdened Flight",
+               "entries": [
+                  "While flying, the laikmets has disadvantage on Dexterity saving throws."
+               ]
+            },
+            {
+               "name": "Incorporeal Nature",
+               "entries": [
+                  "The laikmets can move through other creatures and objects as if they were difficult terrain. It takes 5 ({@damage 1d10}) force damage if it ends its turn inside an object."
+               ]
+            },
+            {
+               "name": "Innate Spellcasting",
+               "entries": [
+                  "The laikmets' innate spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                  {
+                     "type": "list",
+                     "items": [
+                        "At-will: magic missile, magic mouth, scrying",
+                        "1/day: fire storm",
+                        "3/day: bestow curse, scrying, slow"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "Many Minds",
+               "entries": [
+                  "The laikmets has advantage on Intelligence, Wisdom, and Charisma saving throws."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The laikmets makes three attacks with its blades. It can replace one of those attacks with its Riot, if it is available."
+               ]
+            },
+            {
+               "name": "Blades",
+               "entries": [
+                  "{@atk ms} {@hit 8} to hit, reach 10 ft., one target. {@h}23 ({@damage 3d12 + 4}) slashing damage."
+               ]
+            },
+            {
+               "name": "Riot {@recharge 4}",
+               "entries": [
+                  "Each other creature within 15 ft. of the Laikmets must make a {@dc 18} Wisdom saving throw or expend its reaction to move up to half its speed toward a creature of the Laikmets' choice and make a melee attack against it."
+               ]
+            },
+            {
+               "name": "Plague {@recharge}",
+               "entries": [
+                  "Every creature within a 20-foot-radius of a point within 60 feet of the laikmets must make a {@dc 18} Constitution saving throw or be {@condition poisoned} for 1 minute. While {@condition poisoned} in this way, a target's movement speed is halved, and it takes 9 ({@damage 2d8}) poison damage at the start of each of its turns. A {@condition poisoned} creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success."
+               ]
+            },
+            {
+               "name": "Memory",
+               "entries": [
+                  "Up to two creatures of the laikmets' choice within 30 feet of must succeed on a {@dc 18} Wisdom saving throw or be magically {@condition charmed} by the laikmets for 10 minutes. While {@condition charmed} in this way, a target is {@condition incapacitated} and moves its movement to travel in a random direction, lost in the majesty of the laikmets' lost civilization. The target can repeat the saving throw whatever it takes damage or another creature uses its action to attempt to shake it out of its stupor."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Corruption",
+               "entries": [
+                  "If a creature within 30 feet of the laikmets casts a spell, the laikmets can deal force damage to the creature equal to the spell slot level. The target must also succeed on a {@dc 17} Constitution saving throw or be {@condition blinded} until the end of its next turn."
+               ]
+            }
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "C",
+            "D",
+            "E",
+            "G",
+            "GI",
+            "GO",
+            "H"
+         ],
+         "damageTags": [
+            "I",
+            "O",
+            "S"
+         ],
+         "miscTags": [
+            "AOE",
+            "RCH"
+         ],
+         "conditionInflict": [
+            "blinded",
+            "charmed",
+            "incapacitated",
+            "poisoned"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "wisdom"
+         ]
+      },
+      {
+         "name": "Molten Core Golem",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "construct",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 16,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 38,
+            "formula": "4d10 + 16"
+         },
+         "speed": {
+            "walk": 20
+         },
+         "str": 16,
+         "dex": 11,
+         "con": 18,
+         "int": 3,
+         "wis": 11,
+         "cha": 1,
+         "save": {
+            "con": "+6"
+         },
+         "senses": [
+            "blindsight 60 ft."
+         ],
+         "passive": 11,
+         "resist": [
+            "fire",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison",
+            "psychic",
+            "necrotic"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "petrified",
+            "poisoned"
+         ],
+         "languages": [
+            "understands the languages of its creator but can't speak"
+         ],
+         "cr": "1",
+         "trait": [
+            {
+               "name": "Molten Core",
+               "entries": [
+                  "The golem deactivates and falls {@condition unconscious} if it takes 30 cold damage from a single attack or effect, is submerged in at least 10 feet of water, or if at least 5 gallons of water are poured on it. If the golem takes fire damage, one condition affecting it ends."
+               ]
+            },
+            {
+               "name": "Living Steam",
+               "entries": [
+                  "If the golem's Molten Core trait causes it to fall {@condition unconscious}, any water it contacts evaporates in a 30-foot-radius sphere around it. 3 ({@dice 1d6}) steam mephits emerge appear within the area."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Slam",
+               "entries": [
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}7 ({@damage 1d8 + 3}) bludgeoning damage."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Heat Up",
+               "entries": [
+                  "If the golem takes fire damage, it can move up to its speed and make one slam attack."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "languageTags": [
+            "CS"
+         ],
+         "damageTags": [
+            "B",
+            "C"
+         ],
+         "miscTags": [
+            "AOE",
+            "MW"
+         ]
+      },
+      {
+         "name": "Mist Mimic",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": {
+            "type": "elemental",
+            "tags": [
+               "shapechanger"
+            ]
+         },
+         "alignment": [
+            "N",
+            "E"
+         ],
+         "ac": [
+            13
+         ],
+         "hp": {
+            "average": 97,
+            "formula": "15d8 + 30"
+         },
+         "speed": {
+            "fly": {
+               "number": 60,
+               "condition": "(hover)"
+            },
+            "canHover": true
+         },
+         "str": 12,
+         "dex": 19,
+         "con": 15,
+         "int": 12,
+         "wis": 16,
+         "cha": 14,
+         "save": {
+            "wis": "+6",
+            "cha": "+5"
+         },
+         "senses": [
+            "darkvision 60 ft."
+         ],
+         "passive": 13,
+         "resist": [
+            "lightning",
+            "thunder",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison"
+         ],
+         "conditionImmune": [
+            "exhaustion",
+            "grappled",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "prone",
+            "restrained",
+            "unconscious"
+         ],
+         "languages": [
+            "Common",
+            "Auran"
+         ],
+         "cr": "6",
+         "trait": [
+            {
+               "name": "Air Form",
+               "entries": [
+                  "The mist mimic can enter a hostile creature's space and stop there. It can move through a space as narrow as 1 inch wide without squeezing."
+               ]
+            },
+            {
+               "name": "Final Breath",
+               "entries": [
+                  "If a creature dies within 5 feet of the mist mimic, it learns the creature's last thoughts."
+               ]
+            },
+            {
+               "name": "Shapechanger",
+               "entries": [
+                  "The mist mimic can use its action to polymorph into a Small or Medium humanoid or object it has seen, or back into its true form. Its statistics are the same in each form. Any equipment it is wearing or carrying isn't transformed. It reverts to its true form if it dies. If transformed into an object, the mist mimic can use a bonus action to change into a different object. When the mist mimic replicates an object, the object emits translucent clouds of mist."
+               ]
+            },
+            {
+               "name": "Whirlwind Mind",
+               "entries": [
+                  "The mist mimic has advantage on saving throws against spells and other effects that would read its mind. If the mist mimic succeeds on a saving throw against one of these effects, it can read the caster's surface thoughts, as described in the {@spell detect thoughts} spell, for 1 minute."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The mist mimic makes two wind touch attacks."
+               ]
+            },
+            {
+               "name": "Wind Touch",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}15 ({@damage 2d10 + 4}) bludgeoning damage. On a hit, the target must succeed on a {@dc 15} Strength saving throw or be pushed 10 feet away from the mist mimic."
+               ]
+            },
+            {
+               "name": "Consume Breath {@recharge}",
+               "entries": [
+                  "Each creature in the mist mimic's space must make a {@dc 15} Constitution saving throw. On a failure, the creature's speed is reduced to 0 and begins to suffocate until it leaves the mist mimic's space."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Shapechanger"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "actionTags": [
+            "Breath Weapon",
+            "Multiattack"
+         ],
+         "languageTags": [
+            "AU",
+            "C"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "strength"
+         ]
+      },
+      {
+         "name": "Mummy Priest",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "undead",
+         "alignment": [
+            "L",
+            "E"
+         ],
+         "ac": [
+            {
+               "ac": 14,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 90,
+            "formula": "12d8 + 36"
+         },
+         "speed": {
+            "walk": 20
+         },
+         "str": 17,
+         "dex": 8,
+         "con": 16,
+         "int": 10,
+         "wis": 20,
+         "cha": 14,
+         "save": {
+            "con": "+6",
+            "wis": "+8"
+         },
+         "skill": {
+            "history": "+4",
+            "religion": "+4"
+         },
+         "senses": [
+            "darkvision 60 ft."
+         ],
+         "passive": 15,
+         "resist": [
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "necrotic",
+            "poison"
+         ],
+         "vulnerable": [
+            "fire"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "poisoned"
+         ],
+         "languages": [
+            "The languages it knew in life"
+         ],
+         "cr": "5",
+         "spellcasting": [
+            {
+               "name": "Spellcasting",
+               "type": "spellcasting",
+               "headerEntries": [
+                  "The mummy priest is a 7th-level spellcaster. Its spellcasting ability is Wisdom (spell save {@dc 17}, {@hit 9} to hit with spell attacks). The mummy priest has the following cleric spells prepared:"
+               ],
+               "spells": {
+                  "0": {
+                     "spells": [
+                        "{@spell sacred flame}",
+                        "{@spell thaumaturgy}"
+                     ]
+                  },
+                  "1": {
+                     "slots": 4,
+                     "spells": [
+                        "{@spell command}",
+                        "{@spell guiding bolt}",
+                        "{@spell weight of yearsAEONS}"
+                     ]
+                  },
+                  "2": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell hold person}",
+                        "{@spell search archiveAEONS}",
+                        "{@spell silence}",
+                        "{@spell spiritual weapon}"
+                     ]
+                  },
+                  "3": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell bestow curse}",
+                        "{@spell dispel magic}",
+                        "{@spell protection from energy}"
+                     ]
+                  },
+                  "4": {
+                     "slots": 1,
+                     "spells": [
+                        "{@spell banishment}",
+                        "{@spell guardian of faith}"
+                     ]
+                  }
+               },
+               "ability": "wis"
+            }
+         ],
+         "trait": [
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The mummy priest has advantage on saving throws against spells and other magical effects."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The mummy priest uses its dreadful glare or casts a spell with a casting time of 1 action, and makes one attack with its rotting fist."
+               ]
+            },
+            {
+               "name": "Rotting Fist",
+               "entries": [
+                  "{@atk mw} {@hit 7} to hit, reach 5 ft., one target. {@h}10 ({@damage 2d6 + 3}) bludgeoning damage plus 14 ({@damage 4d6}) necrotic damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw or be cursed with mummy rot. The cursed target can't regain hit points, and its hit point maximum decreases by 10 ({@dice 3d6}) for every 24 hours that elapse. If the curse reduces the target's hit point maximum to 0, the target dies, and its body turns to dust. The curse lasts until removed by the {@spell remove curse} spell or other magic."
+               ]
+            },
+            {
+               "name": "Dreadful Glare",
+               "entries": [
+                  "The mummy priest targets one creature it can see within 60 feet of it. If the target can see the mummy priest, it must succeed on a {@dc 15} Wisdom saving throw against this magic or become {@condition frightened} until the end of the mummy's next turn. If the target fails the saving throw by 5 or more, it is also {@condition paralyzed} for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy priests (but not mummy lords) for the next 24 hours."
+               ]
+            }
+         ],
+         "traitTags": [
+            "Magic Resistance"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "LF"
+         ],
+         "damageTags": [
+            "B",
+            "N"
+         ],
+         "damageTagsSpell": [
+            "N",
+            "O",
+            "R"
+         ],
+         "spellcastingTags": [
+            "CC"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "conditionInflict": [
+            "frightened",
+            "paralyzed"
+         ],
+         "conditionInflictSpell": [
+            "deafened",
+            "incapacitated",
+            "paralyzed",
+            "prone"
+         ],
+         "savingThrowForced": [
+            "constitution",
+            "wisdom"
+         ],
+         "savingThrowForcedSpell": [
+            "charisma",
+            "dexterity",
+            "wisdom"
+         ]
+      },
+      {
+         "name": "Overgrown Stone Golem",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "plant",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            16
+         ],
+         "hp": {
+            "average": 178,
+            "formula": "17d10 + 85"
+         },
+         "speed": {
+            "walk": 30
+         },
+         "str": 22,
+         "dex": 9,
+         "con": 20,
+         "int": 7,
+         "wis": 12,
+         "cha": 9,
+         "senses": [
+            "darkvision 120 ft."
+         ],
+         "passive": 11,
+         "immune": [
+            "psychic",
+            {
+               "immune": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "paralyzed",
+            "petrified"
+         ],
+         "languages": [
+            "understands the languages of its creator but can't speak"
+         ],
+         "cr": "13",
+         "action": [
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The golem makes two slam attacks. If both attacks hit a Medium or smaller target, the target is {@condition grappled} (escape {@dc 18}), and the golem uses its Life Drain on it."
+               ]
+            },
+            {
+               "name": "Slam",
+               "entries": [
+                  "{@atk mw} {@hit 11} to hit, reach 5 ft., one target. {@h}19 ({@damage 3d8 + 6}) bludgeoning damage."
+               ]
+            },
+            {
+               "name": "Life Drain",
+               "entries": [
+                  "One creature {@condition grappled} by the golem becomes {@condition restrained} until the grapple ends. While {@condition restrained}, it must make a {@dc 19} Constitution saving throw at the end of each of the golem's turns. On a failure, it takes 32 ({@damage 6d8 + 5}) necrotic damage, or half as much on a success. Whether the target succeeds or fails, the golem regains half as many hit points. If the golem moves, the {@condition restrained} target moves with it, with no impact on the golem's speed. The golem can only have one creature ensnared at a time."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Immutable Form",
+               "entries": [
+                  "The golem is immune to any spell or effect that would alter its form."
+               ]
+            },
+            {
+               "name": "Magic Resistance",
+               "entries": [
+                  "The golem has advantage on saving throws against spells and other magical effects."
+               ]
+            },
+            {
+               "name": "Magic Weapons",
+               "entries": [
+                  "The golem's weapon attacks are magical."
+               ]
+            },
+            {
+               "name": "Root",
+               "entries": [
+                  "If an effect would move the golem against its will, knock it {@condition prone}, or both, sturdy roots unwrap from around its legs and plant the golem in the ground. It is neither moved nor knocked {@condition prone}, and has advantage on ability checks and saving throws against effects that would move it or knock it {@condition prone} until the start of its next turn."
+               ]
+            }
+         ],
+         "senseTags": [
+            "SD"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "CS"
+         ],
+         "damageTags": [
+            "B",
+            "N"
+         ],
+         "miscTags": [
+            "MW"
+         ],
+         "conditionInflict": [
+            "grappled"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ]
+      },
+      {
+         "name": "Prismatic Entangler",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "construct",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 16,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 38,
+            "formula": "4d10 + 16"
+         },
+         "speed": {
+            "walk": 40
+         },
+         "str": 15,
+         "dex": 11,
+         "con": 18,
+         "int": 9,
+         "wis": 12,
+         "cha": 4,
+         "save": {
+            "con": "+6"
+         },
+         "senses": [
+            "blindsight 60 ft."
+         ],
+         "passive": 11,
+         "resist": [
+            "fire",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison",
+            "psychic",
+            "necrotic"
+         ],
+         "conditionImmune": [
+            "charmed",
+            "exhaustion",
+            "frightened",
+            "petrified",
+            "poisoned"
+         ],
+         "languages": [
+            "understands the languages of its creator but can't speak"
+         ],
+         "cr": "4",
+         "trait": [
+            {
+               "name": "Enchanted Glass",
+               "entries": [
+                  "When the prismatic entangler is in direct sunlight, it has advantage on saving throws against spells of 5th-level or lower and other magical effects."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Lasting Death",
+               "entries": [
+                  "When the prismatic entangler dies, a 10-foot square centered on its body fills with glittering glass. The area is difficult terrain, and when a creature moves into the spell's area for the first time on a turn or starts its turn there, it must succeed on a {@dc 17} Constitution saving throw or be {@condition blinded} until the start of its next turn, or until it leaves the area."
+               ]
+            },
+            {
+               "name": "Grasping Whip",
+               "entries": [
+                  "{@atk mw} {@hit 5} to hit, reach 5 ft., one target. {@h}13 ({@damage 3d6 + 3}) bludgeoning damage. If the target is a creature, it is {@condition grappled} (escape {@dc 17}). Until the grapple ends, the prismatic entangler can use its action to deal 4 ({@damage 1d8}) slashing damage to all creatures {@condition grappled} by it. The entangler has four whips, each of which can grapple only one target."
+               ]
+            },
+            {
+               "name": "Blinding Reflection {@recharge 5}",
+               "entries": [
+                  "The entangler channels light through its reflective glass, creating a multicolored flare in a 10-foot radius centered on it. Each creature in the area must succeed on a {@dc 15} Constitution saving throw or be {@condition blinded} until the end of its next turn. If the prismatic entangler is in direct sunlight when it uses this feature, this ability recharges on 3-6 instead."
+               ]
+            }
+         ],
+         "attachedItems": [
+            "grasping whip|bmt"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "languageTags": [
+            "CS"
+         ],
+         "damageTags": [
+            "B",
+            "S"
+         ],
+         "miscTags": [
+            "AOE",
+            "MLW",
+            "MW"
+         ],
+         "conditionInflict": [
+            "blinded",
+            "grappled"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ]
+      },
+      {
+         "name": "Ruin Builder",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "L"
+         ],
+         "type": "aberration",
+         "alignment": [
+            "L",
+            "N"
+         ],
+         "ac": [
+            {
+               "ac": 18,
+               "from": [
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 119,
+            "formula": "14d10 + 42"
+         },
+         "speed": {
+            "walk": 35,
+            "burrow": 30,
+            "climb": 30
+         },
+         "str": 18,
+         "dex": 14,
+         "con": 16,
+         "int": 20,
+         "wis": 16,
+         "cha": 8,
+         "save": {
+            "con": "+7",
+            "wis": "+7",
+            "cha": "+3"
+         },
+         "senses": [
+            "blindsight 500 ft. (blind beyond this radius)"
+         ],
+         "passive": 13,
+         "resist": [
+            "psychic",
+            {
+               "resist": [
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note": "from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "immune": [
+            "poison"
+         ],
+         "conditionImmune": [
+            "blinded",
+            "exhaustion",
+            "poisoned"
+         ],
+         "languages": [
+            "Deep Speech but rarely speaks",
+            "telepathy 1 mile (only with other ruin builders)"
+         ],
+         "cr": "8",
+         "spellcasting": [
+            {
+               "name": "Innate Spellcasting",
+               "type": "spellcasting",
+               "headerEntries": [
+                  "The ruin builder's spellcasting ability is Intelligence (spell save {@dc 14}, {@hit 9} to hit with spell attacks). It can innately cast the following spells, requiring no material components:"
+               ],
+               "will": [
+                  "{@spell stone shape}"
+               ],
+               "daily": {
+                  "•e": [
+                     "{@spell meld into stone}"
+                  ]
+               },
+               "ability": "int"
+            }
+         ],
+         "trait": [
+            {
+               "name": "Earth Glide",
+               "entries": [
+                  "The ruin builder can burrow through nonmagical, unworked earth and stone. While doing so, the ruin builder doesn't disturb the material it moves through."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Labyrinthine Recall",
+               "entries": [
+                  "The ruin builder can perfectly recall any path it has traveled."
+               ]
+            },
+            {
+               "name": "Unusual Nature",
+               "entries": [
+                  "The ruin builder doesn't require air, food, drink, or sleep."
+               ]
+            },
+            {
+               "name": "Multiattack",
+               "entries": [
+                  "The ruin builder makes two petrifying claw attacks, or it can cast one spell it knows and make a petrifying claw attack."
+               ]
+            },
+            {
+               "name": "Petrifying Claw",
+               "entries": [
+                  "{@atk mw} {@hit 8} to hit, reach 10 ft., one target. {@h}17 ({@damage 3d8 + 4}) slashing damage. If the target is a creature, it must succeed on a {@dc 15} Constitution saving throw, or it begins to turn to stone and is {@condition restrained} until the end of its next turn, when it must repeat the saving throw. The effect ends if the second save is successful; otherwise, the target is {@condition petrified}."
+               ]
+            }
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "actionTags": [
+            "Multiattack"
+         ],
+         "languageTags": [
+            "DS",
+            "TP"
+         ],
+         "damageTags": [
+            "S"
+         ],
+         "damageTagsSpell": [
+            "B"
+         ],
+         "spellcastingTags": [
+            "I"
+         ],
+         "miscTags": [
+            "MW",
+            "RCH"
+         ],
+         "conditionInflict": [
+            "petrified",
+            "restrained"
+         ],
+         "conditionInflictSpell": [
+            "prone"
+         ],
+         "savingThrowForced": [
+            "constitution"
+         ]
+      },
+      {
+         "name": "Ruin Crab",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "T"
+         ],
+         "type": "beast",
+         "alignment": [
+            "U"
+         ],
+         "ac": [
+            {
+               "ac": 13,
+               "from": [
+                  "debris shell"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 19,
+            "formula": "3d8 + 6"
+         },
+         "speed": {
+            "walk": 20,
+            "burrow": 10,
+            "swim": 10
+         },
+         "str": 14,
+         "dex": 13,
+         "con": 15,
+         "int": 1,
+         "wis": 9,
+         "cha": 4,
+         "skill": {
+            "stealth": "+4"
+         },
+         "senses": [
+            "blindsight 60 ft."
+         ],
+         "passive": 9,
+         "resist": [
+            {
+               "resist": [
+                  "slashing"
+               ],
+               "note": "damage from nonmagical attacks",
+               "cond": true
+            }
+         ],
+         "cr": "0",
+         "trait": [
+            {
+               "name": "False Appearance",
+               "entries": [
+                  "While the crab remains motionless and inside its shell, it is indistinguishable from debris or rubble."
+               ]
+            },
+            {
+               "name": "Debris Shell",
+               "entries": [
+                  "While the shell isn't broken, the crab has a +3 bonus to its AC (included in its statistics). If damage would reduce the ruin crab to 0 hit points, its shell breaks, it is reduced to 1 hit point instead, and one object from the ruin crab treasures table drops into the ruin crab's space. The crab can spend 1 hour collecting debris and rubble to rebuild its Debris Shell."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Claw",
+               "entries": [
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) bludgeoning damage."
+               ]
+            }
+         ],
+         "traitTags": [
+            "False Appearance"
+         ],
+         "senseTags": [
+            "B"
+         ],
+         "damageTags": [
+            "B"
+         ],
+         "miscTags": [
+            "MW"
+         ]
+      },
+      {
+         "name": "Shade Prince",
+         "source": "AEONS",
+         "page": 0,
+         "size": [
+            "M"
+         ],
+         "type": "aberration",
+         "alignment": [
+            "L",
+            "E"
+         ],
+         "ac": [
+            {
+               "ac": 16,
+               "from": [
+                  "{@spell mage armor}"
+               ]
+            }
+         ],
+         "hp": {
+            "average": 152,
+            "formula": "16d8 + 80"
+         },
+         "speed": {
+            "walk": {
+               "number": 30,
+               "condition": "(50 ft. in dim light or darkness)"
+            }
+         },
+         "str": 18,
+         "dex": 16,
+         "con": 20,
+         "int": 19,
+         "wis": 13,
+         "cha": 19,
+         "save": {
+            "con": "+10",
+            "cha": "+9"
+         },
+         "skill": {
+            "arcana": "+9",
+            "deception": "+9",
+            "history": "+9",
+            "perception": "+6",
+            "stealth": "+12"
+         },
+         "senses": [
+            "darkvision 60 ft."
+         ],
+         "passive": 16,
+         "resist": [
+            "necrotic",
+            "bludgeoning",
+            "piercing",
+            "slashing (stoneskin)"
+         ],
+         "languages": [
+            "Common",
+            "Netherese"
+         ],
+         "cr": {
+            "cr": "9",
+            "xp": 10000
+         },
+         "spellcasting": [
+            {
+               "name": "Spellcasting",
+               "type": "spellcasting",
+               "headerEntries": [
+                  "The shade prince is a 12th-level spellcaster. The shade prince's spellcasting ability is Intelligence (spell save {@dc 16}, {@hit 8} to hit with spell attacks)."
+               ],
+               "spells": {
+                  "0": {
+                     "spells": [
+                        "{@spell chill touch}",
+                        "{@spell gust|XGE}",
+                        "{@spell mage hand}",
+                        "{@spell minor illusion}",
+                        "{@spell prestidigitation}"
+                     ]
+                  },
+                  "1": {
+                     "slots": 4,
+                     "spells": [
+                        "{@spell detect magic}",
+                        "{@spell false life}",
+                        "{@spell mage armor} *",
+                        "{@spell silent image}"
+                     ]
+                  },
+                  "2": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell blindness/deafness}",
+                        "{@spell darkness}",
+                        "{@spell phantasmal force}"
+                     ]
+                  },
+                  "3": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell bestow curse}",
+                        "{@spell dispel magic}",
+                        "{@spell fear}"
+                     ]
+                  },
+                  "4": {
+                     "slots": 3,
+                     "spells": [
+                        "{@spell hallucinatory terrain}",
+                        "{@spell polymorph}",
+                        "{@spell stoneskin} *"
+                     ]
+                  },
+                  "5": {
+                     "slots": 2,
+                     "spells": [
+                        "{@spell cloudkill}",
+                        "{@spell creation}",
+                        "{@spell legend lore}"
+                     ]
+                  },
+                  "6": {
+                     "slots": 1,
+                     "spells": [
+                        "{@spell programmed illusion}"
+                     ]
+                  }
+               },
+               "footerEntries": [
+                  "*the shade casts these spells before combat"
+               ],
+               "ability": "int"
+            }
+         ],
+         "trait": [
+            {
+               "name": "Devil's Sight",
+               "entries": [
+                  "Magical darkness doesn't impede the shade's darkvision."
+               ]
+            },
+            {
+               "name": "Spellcasting",
+               "entries": [
+                  "The shade's innate spellcasting ability is Charisma (spell save {@dc 16}). It can innately cast the following spells, requiring no material components, but only while in dim light or darkness:",
+                  {
+                     "type": "list",
+                     "items": [
+                        "At will: darkness, invisibility (self only)",
+                        "1/day each: plane shift (self only), teleport (only to a location in dim light or darkness)",
+                        "3/day: mirror image"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name": "Regeneration",
+               "entries": [
+                  "The shade regains 10 hit points at the start of its turn if it has at least 1 hit point and isn't in bright light."
+               ]
+            },
+            {
+               "name": "Shadow Empowerment",
+               "entries": [
+                  "While in dim light or darkness, the shade has advantage on attack rolls and saving throws and deals an additional 4 ({@damage 1d8}) psychic damage on attacks. Attacks made against the shade have disadvantage, and the shade can use a bonus action to magically teleport to any area in dim light or darkness within 30 feet of it."
+               ]
+            }
+         ],
+         "action": [
+            {
+               "name": "Longsword",
+               "entries": [
+                  "{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}8 ({@damage 1d8 + 4}) slashing damage, or 9 ({@damage 1d10 + 4}) slashing damage if used with two hands to make a melee attack, plus 4 ({@damage 1d8}) psychic damage in dim light or darkness."
+               ]
+            },
+            {
+               "name": "Gloom Chakram",
+               "entries": [
+                  "{@atk rw} {@hit 8} to hit, range 20/60 ft., one target. {@h}7 ({@damage 1d6 + 4}) slashing damage, plus 4 ({@damage 1d8}) psychic damage if used in dim light or darkness."
+               ]
+            }
+         ],
+         "reaction": [
+            {
+               "name": "Shadow Spell",
+               "entries": [
+                  "Whenever another creature casts a spell of 6th level or lower, the shade can copy that spell. Until the end of its next turn, the shade can cast that spell once using its spellcasting trait, treating it as if prepared as a wizard spell and expending spell slots as normal."
+               ]
+            }
+         ],
+         "attachedItems": [
+            "longsword|phb"
+         ],
+         "traitTags": [
+            "Devil's Sight",
+            "Regeneration"
+         ],
+         "senseTags": [
+            "D"
+         ],
+         "languageTags": [
+            "C",
+            "OTH"
+         ],
+         "damageTags": [
+            "S",
+            "Y"
+         ],
+         "damageTagsSpell": [
+            "I",
+            "N",
+            "Y"
+         ],
+         "spellcastingTags": [
+            "O"
+         ],
+         "miscTags": [
+            "MLW",
+            "MW",
+            "RW"
+         ],
+         "conditionInflictSpell": [
+            "blinded",
+            "deafened",
+            "frightened"
+         ],
+         "savingThrowForcedSpell": [
+            "constitution",
+            "intelligence",
+            "strength",
+            "wisdom"
+         ]
+      }                                                                                                      
    ]
 }
