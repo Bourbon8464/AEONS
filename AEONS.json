@@ -473,11 +473,7 @@
          ],
          "savingThrowForced":[
             "dexterity"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Lesser Amber Syrup",
@@ -587,11 +583,7 @@
             "MW",
             "RCH",
             "RW"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Brick Golem",
@@ -715,11 +707,7 @@
          ],
          "miscTags":[
             "MW"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Clocktopus",
@@ -804,11 +792,7 @@
          ],
          "savingThrowForced":[
             "constitution"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Crawling Apocalypse",
@@ -963,11 +947,7 @@
          "savingThrowForced":[
             "constitution",
             "wisdom"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Crystal Ruin Crab",
@@ -1065,11 +1045,7 @@
          ],
          "savingThrowForced":[
             "constitution"
-         ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         ]
       },
       {
          "name":"Eternal Healer",
@@ -1186,11 +1162,395 @@
          "savingThrowForced":[
             "constitution",
             "wisdom"
+         ]
+      },
+      {
+         "name":"Gemlin",
+         "source":"AEONS",
+         "page":0,
+         "size":[
+            "S"
          ],
-         "tokenHref":{
-            "type":"external",
-          "url":""
-         }
+         "type":"elemental",
+         "alignment":[
+            "C",
+            "N"
+         ],
+         "ac":[
+            {
+               "ac":14,
+               "from":[
+                  "natural armor"
+               ]
+            }
+         ],
+         "hp":{
+            "average":16,
+            "formula":"3d6 + 6"
+         },
+         "speed":{
+            "walk":30,
+            "burrow":30
+         },
+         "str":12,
+         "dex":14,
+         "con":14,
+         "int":8,
+         "wis":11,
+         "cha":9,
+         "senses":[
+            "darkvision 60 ft.",
+            "tremorsense 30 ft."
+         ],
+         "passive":10,
+         "resist":[
+            {
+               "resist":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical attacks",
+               "cond":true
+            }
+         ],
+         "immune":[
+            "poison"
+         ],
+         "vulnerable":[
+            "thunder"
+         ],
+         "conditionImmune":[
+            "exhaustion",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "unconscious"
+         ],
+         "languages":[
+            "Terran"
+         ],
+         "cr":"1/4",
+         "trait":[
+            {
+               "name":"Earth Glide",
+               "entries":[
+                  "The gemlin can burrow through nonmagical, unworked earth and stone. While doing so, the gemlin doesn't disturb the material it moves through."
+               ]
+            },
+            {
+               "name":"Innate Spellcasting",
+               "entries":[
+                  "The gemlin's innate spellcasting ability is Wisdom (spell save {@dc 10}, {@hit 2} to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                  {
+                     "type":"list",
+                     "items":[
+                        "At-will: one spell from the gemlin juvenile table",
+                        "1/day: one spell from the gemlin table"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Gemstone Sense",
+               "entries":[
+                  "The gemlin can sense the presence of gemstones within 1,000 feet of itself. It can determine which location has the most valuable gemstones, and the location to the site or sites. If the gemstones are being moved, it knows the direction of the movement. Any thickness of clay or lead, even a thin sheet, blocks this sense if it blocks a direct path between the gemlin and the gemstones."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Claw",
+               "entries":[
+                  "{@atk mw} {@hit 4} to hit, reach 5 ft., one target. {@h}5 ({@damage 1d6 + 2}) slashing damage."
+               ]
+            },
+            {
+               "name":"Launch Pebble",
+               "entries":[
+                  "A creature the gemlin can see within 30 feet of it must make a {@dc 12} Dexterity saving throw. On a failed save, the target takes 5 ({@damage 2d4}) bludgeoning damage."
+               ]
+            }
+         ],
+         "senseTags":[
+            "D",
+            "T"
+         ],
+         "languageTags":[
+            "T"
+         ],
+         "damageTags":[
+            "B",
+            "S"
+         ],
+         "miscTags":[
+            "MW"
+         ],
+         "savingThrowForced":[
+            "dexterity"
+         ]
+      },
+      {
+         "name":"Gemlin Juvenile",
+         "source":"AEONS",
+         "page":0,
+         "size":[
+            "T"
+         ],
+         "type":"elemental",
+         "alignment":[
+            "C",
+            "N"
+         ],
+         "ac":[
+            11
+         ],
+         "hp":{
+            "average":10,
+            "formula":"3d4 + 3"
+         },
+         "speed":{
+            "walk":30,
+            "burrow":30
+         },
+         "str":7,
+         "dex":12,
+         "con":12,
+         "int":7,
+         "wis":11,
+         "cha":9,
+         "senses":[
+            "darkvision 60 ft.",
+            "tremorsense 5 ft."
+         ],
+         "passive":10,
+         "resist":[
+            {
+               "resist":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical attacks",
+               "cond":true
+            }
+         ],
+         "immune":[
+            "poison"
+         ],
+         "vulnerable":[
+            "thunder"
+         ],
+         "conditionImmune":[
+            "exhaustion",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "unconscious"
+         ],
+         "languages":[
+            "Terran"
+         ],
+         "cr":"0",
+         "trait":[
+            {
+               "name":"Earth Glide",
+               "entries":[
+                  "The gemlin can burrow through nonmagical, unworked earth and stone. While doing so, the gemlin doesn't disturb the material it moves through."
+               ]
+            },
+            {
+               "name":"Innate Spellcasting",
+               "entries":[
+                  "The gemlin's innate spellcasting ability is Wisdom (spell save {@dc 10}, {@hit 2} to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                  {
+                     "type":"list",
+                     "items":[
+                        "At will: one spell from the gemlin juvenile table"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Gemstone Sense",
+               "entries":[
+                  "The gemlin can sense the presence of gemstones within 1,000 feet of itself. It can determine which location has the most valuable gemstones, and the location of the site or sites. If the gemstones are being moved, it knows the direction of the movement. Any thickness of clay or lead, even a thin sheet, blocks this sense if it blocks a direct path between the gemlin and the gemstones."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Claw",
+               "entries":[
+                  "{@atk mw} {@hit 3} to hit, reach 5 ft., one target. {@h}4 ({@damage 1d6 + 1}) slashing damage."
+               ]
+            }
+         ],
+         "senseTags":[
+            "D",
+            "T"
+         ],
+         "languageTags":[
+            "T"
+         ],
+         "damageTags":[
+            "S"
+         ],
+         "miscTags":[
+            "MW"
+         ]
+      },
+      {
+         "name":"Gemlin Aggregate",
+         "source":"AEONS",
+         "page":0,
+         "size":[
+            "H"
+         ],
+         "type":"elemental",
+         "alignment":[
+            "C",
+            "N"
+         ],
+         "ac":[
+            17
+         ],
+         "hp":{
+            "average":105,
+            "formula":"10d12 + 40"
+         },
+         "speed":{
+            "walk":30,
+            "burrow":60
+         },
+         "str":18,
+         "dex":8,
+         "con":19,
+         "int":12,
+         "wis":16,
+         "cha":14,
+         "save":{
+            "str":"+8",
+            "con":"+8"
+         },
+         "skill":{
+            "athletics":"+8",
+            "intimidation":"+6"
+         },
+         "senses":[
+            "darkvision 60 ft.",
+            "tremorsense 120 ft."
+         ],
+         "passive":13,
+         "immune":[
+            "poison",
+            {
+               "immune":[
+                  "bludgeoning",
+                  "piercing",
+                  "slashing"
+               ],
+               "note":"from nonmagical attacks",
+               "cond":true
+            }
+         ],
+         "conditionImmune":[
+            "exhaustion",
+            "paralyzed",
+            "petrified",
+            "poisoned",
+            "unconscious"
+         ],
+         "languages":[
+            "understands Terran but can't speak"
+         ],
+         "cr":"10",
+         "trait":[
+            {
+               "name":"Charge",
+               "entries":[
+                  "If the gemlin moves at least 15 feet straight toward a target and then hits with its slam on the same turn, the target takes an extra 7 ({@damage 2d6}) bludgeoning damage. If the target is a creature, it must succeed on a {@dc 16} Strength saving throw or be knocked {@condition prone}."
+               ]
+            },
+            {
+               "name":"Earth Glide",
+               "entries":[
+                  "The gemlin can burrow through nonmagical, unworked earth and stone. While doing so, the gemlin doesn't disturb the material it moves through."
+               ]
+            },
+            {
+               "name":"Fused Creature",
+               "entries":[
+                  "When the gemlin aggregate dies, it collapses into {@dice 1d4} gemlin and {@dice 2d6} gemlin juveniles at the start of its next turn. These gemlin act on their own initiative count, and each emerges with 2 ({@dice 1d6 - 1}) levels of {@condition exhaustion}."
+               ]
+            },
+            {
+               "name":"Innate Spellcasting",
+               "entries":[
+                  "The gemlin's innate spellcasting ability is Wisdom (spell save {@dc 15}, {@hit 7} to hit with spell attacks). It can innately cast the following spells, requiring no material components:",
+                  {
+                     "type":"list",
+                     "items":[
+                        "At will: seven spells from the gemlin juvenile table",
+                        "2/day each: three spells from the gemlin progenitor table",
+                        "3/day: four spells from the gemlin table"
+                     ]
+                  }
+               ]
+            },
+            {
+               "name":"Reflective Carapace",
+               "entries":[
+                  "Any time the gemlin aggregate is targeted by a {@spell magic missile} spell, a line spell, or a spell that requires a ranged attack roll, roll a {@dice d6}. On a 1 to 5, the gemlin aggregate is unaffected. On a 6, the gemlin aggregate is unaffected, and the effect is reflected back at the caster as though it originated from the gemlin aggregate, turning the caster into the target."
+               ]
+            },
+            {
+               "name":"Resonance",
+               "entries":[
+                  "If the gemlin aggregate starts or ends its turn within 5 feet of the corpse of any gemlin, it absorbs the body and regains hit points equal to half the gemlin's maximum hit points. The gemlin is resurrected within the aggregate and reappears in the mass of gemlins if the gemlin aggregate breaks apart."
+               ]
+            }
+         ],
+         "action":[
+            {
+               "name":"Slam",
+               "entries":[
+                  "{@atk mw} {@hit 7} to hit, reach 15 ft., one target. {@h}14 ({@damage 3d6 + 4}) slashing damage."
+               ]
+            },
+            {
+               "name":"Hurl Cluster",
+               "entries":[
+                  "{@atk rw} {@hit 7} to hit, range 60/240 ft., one target. {@h}22 ({@damage 4d8 + 4}) bludgeoning damage. A gemlin appears in an unoccupied space within 10 feet of the target. The gemlin acts on its own initiative count."
+               ]
+            }
+         ],
+         "traitTags":[
+            "Charge"
+         ],
+         "senseTags":[
+            "D",
+            "T"
+         ],
+         "languageTags":[
+            "CS",
+            "T"
+         ],
+         "damageTags":[
+            "B",
+            "S"
+         ],
+         "miscTags":[
+            "MW",
+            "RCH",
+            "RW"
+         ],
+         "conditionInflict":[
+            "prone"
+         ],
+         "savingThrowForced":[
+            "strength"
+         ]
       }
    ]
 }
